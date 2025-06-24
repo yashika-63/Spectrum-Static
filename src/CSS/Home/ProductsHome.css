@@ -1,0 +1,229 @@
+.wrapper {
+  background-color: #f5f6f7;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0px;
+}
+
+.container {
+  background-color: white;
+  width: 100%;
+  max-width: 1000px;
+  padding: 60px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 19px rgba(0, 0, 0, 0.4);
+  z-index: 2;
+  margin: 50px 0;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+}
+
+.menu-item {
+  font-weight: bold;
+  color: grey;
+  cursor: pointer;
+  text-align: center;
+  padding: 40px 0;
+  position: relative;
+  transition: color 0.2s;
+}
+
+.menu-item:hover {
+  color: black;
+}
+
+/* Red underline on hover using ::after */
+.menu-item::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+  width: 40%;
+  height: 3px;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.menu-item:hover::after {
+  background-color: var(--red);
+}
+
+/* Submenu styles */
+.submenu {
+  background: #fff;
+  border-top: 3px solid var(--red);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 4px;
+  opacity: 0;
+  transform: translateY(-10px);
+  animation: fadeInSlide 0.4s ease forwards;
+  width: 80%;
+}
+
+/* Slide + fade in animation */
+@keyframes fadeInSlide {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.submenu h3 {
+  margin: 0 0 10px;
+  color: var(--red);
+}
+
+.submenu p {
+  max-width: 700px;
+  color: #333;
+}
+
+.submenu-items {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  border-top: 1px solid #ddd;
+  padding-top: 16px;
+}
+
+.submenu-link {
+  color: black;
+}
+
+.submenu-link:hover {
+  color: var(--red);
+  text-decoration: underline;
+}
+
+/* Smooth fade for submenu content */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.4s ease forwards;
+}
+
+.fade-out {
+  opacity: 1;
+  animation: fadeOut 0.3s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+.hover-zone {
+  position: relative;
+}
+
+/* Grid layout for title/description + button */
+.submenu-top {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  padding: 30px;
+}
+
+.submenu-text h3 {
+  margin: 0;
+  font-size: 20px;
+  color: var(--red);
+}
+
+.submenu-text p {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .container {
+  background-color: white;
+  width: 90%;
+  padding: 30px 0;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.4);
+  z-index: 2;
+  margin: 50px 0;
+}
+
+  .menu-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+  }
+
+  .menu-item {
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+    word-break: break-word;
+  }
+
+  .submenu {
+    width: 70%;
+    margin-top: 0;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border-top: 2px solid var(--red);
+    padding: 10px 20px;
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+
+  .submenu-top {
+    grid-template-columns: 1fr;
+    padding: 10px 0;
+    margin-bottom: 10px;
+  }
+
+  .submenu-items {
+display: block;
+    padding-top: 10px;
+  }
+
+  .menu-item::after {
+    display: none;
+  }
+
+  .hover-zone {
+    onMouseLeave: none;
+  }
+}

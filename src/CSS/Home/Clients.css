@@ -1,0 +1,43 @@
+.logo-slider {
+  overflow: hidden;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.logo-track {
+  display: flex;
+  width: max-content;
+  animation: scroll-left 60s linear infinite;
+  margin-top: 90px;
+}
+
+.logo-item {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.logo-item img {
+  max-height: 60px;
+  width: auto;
+  object-fit: contain;
+  filter: grayscale(0%);
+  transition: filter 0.3s;
+}
+
+.logo-item img:hover {
+  /* filter: grayscale(100%); */
+  transform: scale(1.15);
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

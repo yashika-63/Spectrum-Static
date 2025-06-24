@@ -1,0 +1,64 @@
+import React, { useState } from "react";
+import "../../CSS/AboutUs/NewsPage.css";
+import NewsCard from "../Components/NewsCard";
+import { useNavigate } from "react-router-dom";
+import { csrData } from "../../Data/NewsData";
+
+const CsrPage = () => {
+  const [searchTerm, setSearchTerm] = useState("");
+  const [yearFilter, setYearFilter] = useState("");
+
+  const navigate = useNavigate();
+
+  const years = [...new Set(csrData.map((item) => item.date.split("/")[2]))];
+
+  const filteredCsr = csrData.filter((item) => {
+    const matchYear = yearFilter ? item.date.endsWith(yearFilter) : true;
+    const matchSearch =
+      item.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      item.description.toLowerCase().includes(searchTerm.toLowerCase());
+    return matchYear && matchSearch;
+  });
+
+  const handleCardClick = (csrs) => {
+    navigate(`/CSR/${csrs.id}`);
+  };
+
+  return (
+    <div className="news-page">
+      <h2 className="title">Latest CSR</h2>
+      <div className="news-header">
+        <div className="filters">
+          <input
+            type="text"
+            placeholder="Search news..."
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
+          <select
+            onChange={(e) => setYearFilter(e.target.value)}
+            value={yearFilter}
+          >
+            <option value="">All Years</option>
+            {years.map((year) => (
+              <option key={year} value={year}>
+                {year}
+              </option>
+            ))}
+          </select>
+        </div>
+      </div>
+
+      <div className="news-grid">
+        {filteredCsr.length ? (
+          filteredCsr.map((news) => (
+            <NewsCard key={news.id} news={news} onClick={handleCardClick} />
+          ))
+        ) : (
+          <p>No news found.</p>
+        )}
+      </div>
+    </div>
+  );
+};
+
+export default CsrPage;

@@ -1,0 +1,262 @@
+.core-path {
+ padding: 20px 40px;
+}
+
+.core-services {
+    padding: 50px 70px 120px;
+    border-top: 2px solid #eee;
+}
+
+.core-para{
+    line-height: 1.5;
+    text-align: center;
+}
+
+.core-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+  border-top: 2px solid #eee;
+  margin-top: 30px;
+  padding: 60px 0;
+}
+
+.core-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+  gap: 20px;
+}
+
+.core-block-services {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #eee;
+}
+
+.title-section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex: 1.5;
+}
+
+.our-black {
+  font-size: 1rem;
+  color: black;
+  font-weight: 600;
+}
+
+.label-red {
+  font-size: 1rem;
+  color: red;
+  font-weight: 700;
+}
+
+.title-section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* or center if you want centered text */
+  justify-content: center;
+  min-width: 120px; /* ensures consistent width for alignment */
+}
+
+.our-black1 {
+  font-size: 1rem;
+  color: black;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.label-red1 {
+  font-size: 1rem;
+  color: red;
+  font-weight: 700;
+}
+
+.indicator-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50px;
+  justify-content: center;
+  flex: 1;
+}
+
+.line {
+  width: 2px;
+  height: 15px;
+  background-color: black;
+}
+
+.red-dot {
+  width: 8px;
+  height: 8px;
+  background-color: red;
+  border-radius: 50%;
+  margin: 4px 0;
+}
+
+.description {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.5;
+  flex: 10;
+}
+
+
+
+.core-values-section {
+  padding: 20px 0px 100px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.core-values-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  position: relative;
+  margin-top: 60px;
+}
+
+.core-value-item {
+  padding: 10px 20px;
+  position: relative;
+  background-color: #fff;
+}
+
+.core-value-item:not(:nth-child(4n))::after {
+  content: "";
+  position: absolute;
+  top: 15%;
+  right: 0;
+  width: 1px;
+  height: 70%;
+  background-color: #eee;
+}
+
+/* Horizontal Divider */
+.core-value-item:nth-child(n+5)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 10%;
+  width: 80%;
+  height: 1px;
+  background-color: #ddd;
+}
+
+.value-title {
+  font-size: 1.2rem;
+  color: var(--red);
+  margin-bottom: 12px;
+}
+
+.line-dot-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.line-dot-line .line {
+  flex: 1;
+  max-width: 40px;
+  height: 2px;
+  background-color: black;
+}
+
+.line-dot-line .dot {
+  width: 8px;
+  height: 8px;
+  background-color: var(--red);
+  border-radius: 50%;
+  margin: 0 6px;
+}
+
+.value-description {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.5;
+  text-align: center;
+}
+
+
+/* Fix title spacing */
+.title-flex {
+  display: flex;
+  gap: 6px;
+}
+
+/* Make all indicator lines aligned */
+.fixed-width-indicator {
+  min-width: 40px;
+  align-items: center;
+}
+
+
+/* Mobile View - Stack vertically */
+@media (max-width: 600px) {
+  .core-path {
+    padding: 10px 20px;
+  }
+
+  .core-services {
+    padding: 20px 40px;
+  }
+
+  .description {
+    padding: 0px;
+  }
+
+  .core-block-services {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+  }
+
+  .title-section {
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .indicator-wrapper {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .indicator-wrapper .line {
+    width: 30px;
+    height: 2px;
+  }
+
+  .indicator-wrapper .red-dot {
+    margin: 0 6px;
+  }
+
+  .core-values-section {
+    padding: 0px;
+  }
+
+  .core-values-grid {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px;
+  }
+}

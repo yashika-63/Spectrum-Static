@@ -1,0 +1,94 @@
+.hero-container {
+  background-image: url("src/assets/spectrum-top-view.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: grey;
+  color: white;
+  text-align: left;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+}
+
+.hero-title {
+  font-size: 32px;
+  font-family: 'Noto', sans-serif;
+  width: 50%;
+  line-height: 1.5;
+}
+
+.hero-subtitle {
+  width: 50%;
+  font-size: 16px;
+  line-height: 2;
+  font-family: 'Noto', sans-serif;
+}
+
+.below-text {
+  background-color: white;
+  color: black;
+  font-size: 26px;
+  padding: 40px 160px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* Tablets (768px - 1024px) */
+@media (max-width: 1024px) {
+  .hero-title,
+  .hero-subtitle {
+    max-width: 100%;
+    font-size: 1.75rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .below-text {
+    font-size: 1.3rem;
+    padding: 30px 6%;
+  }
+}
+
+/* Mobile devices (up to 767px) */
+@media (max-width: 767px) {
+  .overlay {
+    padding: 30px;
+  }
+
+  .hero-title {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .hero-subtitle {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    width: 100%;
+  }
+
+  .below-text {
+    font-size: 1.2rem;
+    padding: 20px 5%;
+  }
+}
+
+/* Very small phones (up to 480px) */
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 1.3rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.85rem;
+  }
+
+  .below-text {
+    font-size: 1rem;
+    padding: 20px 4%;
+  }
+}
