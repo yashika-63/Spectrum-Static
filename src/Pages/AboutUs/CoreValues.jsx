@@ -58,7 +58,7 @@ const coreValues = [
 export default function CorePath() {
   return (
     <div className="core-path">
-      <h1 className="title">Corepath</h1>
+      <h1 className="title">Our Vision</h1>
       <p className="core-para">
         We build a sustainable and innovative future through
         transformative solutions. Guided by our mission and core values, we

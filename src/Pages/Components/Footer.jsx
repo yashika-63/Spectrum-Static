@@ -15,10 +15,10 @@ const Footer = () => {
             className="footer-logo"
           />
           <p className="tag-line">We Propel Your Growth</p>
-          <p className="sub-text">
+          {/* <p className="sub-text">
             Spectrum deliver success when we undertake responsibility from
             routine production to unchartered large scale projects.
-          </p>
+          </p> */}
         </div>
 
         <div className="footer-columns">
@@ -35,21 +35,21 @@ const Footer = () => {
                 <li>Leadership Team</li>
               </a>
               <a href="/CorePath">
-                <li>Corepath</li>
+                <li>Our Vision</li>
               </a>
               <a href="/Careers">
                 <li>Careers</li>
               </a>
-              <a href="/History">
+              {/* <a href="/History">
                 <li>History</li>
-              </a>
+              </a> */}
               <a href="/News">
                 <li>News</li>
               </a>
             </ul>
           </div>
           <div className="footer-column">
-            <h4>OUR PASSIONS</h4>
+            <h4>SOCIAL</h4>
             <ul>
               <a href="/Sustainability">
                 <li>Sustainability</li>
@@ -107,7 +107,7 @@ const Footer = () => {
           </a>
         </div>
 
-        <div className="website-link1">
+        {/* <div className="website-link1">
           <p>
             <a
               href="https://pristine-code.com/"
@@ -117,7 +117,7 @@ const Footer = () => {
               Website developed and maintained by - Pristine IT Code
             </a>
           </p>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

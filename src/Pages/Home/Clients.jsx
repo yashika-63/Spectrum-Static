@@ -28,7 +28,7 @@ export default function Clients() {
 
   return (
     <div className="logo-slider">
-      <p className="title">We work with</p>
+      <p className="title">Our Esteemed Clients</p>
       <div className="logo-track">
         {duplicatedLogos.map((logo, index) => (
           <div className="logo-item" key={index}>

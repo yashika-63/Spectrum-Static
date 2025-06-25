@@ -1,16 +1,13 @@
 .hero-container {
-  background-image: url("src/assets/spectrum-top-view.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: grey;
-  color: white;
+  background: linear-gradient(to bottom, #f90404, white, white);
+  color: black;
   text-align: left;
 }
 
 .overlay {
-  background: rgba(0, 0, 0, 0.6);
+  background: #f4f4f4;  
   padding: 40px;
+  border-bottom: 2px solid #eee;
 }
 
 .hero-title {

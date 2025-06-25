@@ -14,7 +14,7 @@ const HeroSection = () => {
     <div className="hero-container">
       <div className="overlay">
         <p className="hero-title">
-          Spectrum - your partner for transformative solutions
+          Spectrum - Conglomerate with a steadfast successful journey of delivering innovation and manufacturing excellence propeling growth for clients.
         </p>
         <p className="hero-subtitle">
           Spectrum is commited to innovation in our product lines, integrating
@@ -36,8 +36,8 @@ const HeroSection = () => {
 
       <div className="below-text">
         Spectrum delivers excellence, advanced manufacturing, certified
-        quality, and trusted partnerships - driving responsible, reliable
-        solutions for lasting growth.
+        quality, and builds trusted partnership - delivering responsible and reliable
+        solutions.
       </div>
     </div>
   );

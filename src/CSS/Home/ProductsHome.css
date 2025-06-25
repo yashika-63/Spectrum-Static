@@ -40,6 +40,7 @@
   padding: 40px 0;
   position: relative;
   transition: color 0.2s;
+  font-size: 20px;
 }
 
 .menu-item:not(:nth-child(3n))::after {
@@ -181,7 +182,7 @@
 
 .submenu-text p {
   margin-top: 8px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
   color: #333;
 }

@@ -5,7 +5,7 @@ import "../../CSS/AboutUs/Leadership.css";
 export default function Leadership() {
   return (
     <div className="leadership-container">
-      <h2 className="title">Our Valuable Members</h2>
+      <h2 className="title">Leadership & Management</h2>
       <div className="grid-container">
         {leadershipData.map((person, index) => (
           <div className="card" key={index}>

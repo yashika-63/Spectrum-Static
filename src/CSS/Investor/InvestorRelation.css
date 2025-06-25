@@ -209,6 +209,10 @@
   text-align: left;
 }
 
+.ir-static-table td:first-child {
+  text-align: right;
+}
+
 .ir-static-table a {
   color: black;
   font-size: 1rem;

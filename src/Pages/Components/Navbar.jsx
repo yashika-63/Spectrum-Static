@@ -91,12 +91,12 @@ const menuData = {
     "About us": [
       { label: "Awards & Certificates", link: "/Awards" },
       { label: "Leadership Team", link: "/LeadershipTeam" },
-      { label: "Corepath", link: "/CorePath" },
-      { label: "History", link: "/History" },
+      { label: "Our Vision", link: "/CorePath" },
+      // { label: "History", link: "/History" },
     ],
     News: [{ label: "Latest News", link: "/News" }],
-    Carrers: [{ label: "Joins Us", link: "/Careers" }],
-    "Contact Us": [{ label: "Reach Out", link: "/ContactUs" }],
+    Carrers: [{ label: "Apply Now", link: "/Careers" }],
+    "Contact Us": [{ label: "Contact Us", link: "/ContactUs" }],
     "Whistle Blower": [{ label: "Report a Concern", link: "/WhistleBlower" }],
   },
 };

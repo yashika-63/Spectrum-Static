@@ -22,7 +22,7 @@ const IRStaticTable = ({ title, files }) => {
 
             return (
               <tr key={idx}>
-                <td>{idx + 1}.</td>
+                <td>{idx + 1}</td>
                 <td>{displayName}</td>
                 <td>
                   <a href={fileUrl} target="_blank" rel="noreferrer">

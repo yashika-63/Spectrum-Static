@@ -60,6 +60,7 @@
   height: 80%;
   object-fit: cover;
   border-radius: 10px;
+  padding-top: 20px;
 }
 
 .card-info {
