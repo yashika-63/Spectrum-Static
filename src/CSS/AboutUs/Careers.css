@@ -111,7 +111,7 @@
 
 .close-icon:hover {
   transform: rotate(90deg);
-  color: red;
+  color: var(--red);
 }
 
 .modal h2 {

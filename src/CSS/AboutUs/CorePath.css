@@ -59,7 +59,7 @@
 
 .label-red {
   font-size: 1rem;
-  color: red;
+  color: var(--red);
   font-weight: 700;
 }
 
@@ -80,7 +80,7 @@
 
 .label-red1 {
   font-size: 1rem;
-  color: red;
+  color: var(--red);
   font-weight: 700;
 }
 
@@ -102,7 +102,7 @@
 .red-dot {
   width: 8px;
   height: 8px;
-  background-color: red;
+  background-color: var(--red);
   border-radius: 50%;
   margin: 4px 0;
 }

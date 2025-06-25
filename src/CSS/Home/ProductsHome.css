@@ -238,7 +238,7 @@
 }
 
   .submenu {
-    width: 100%;
+    width: auto;
     margin-top: 0;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
@@ -246,6 +246,7 @@
     animation: none;
     opacity: 1;
     transform: none;
+    margin: 0 20px;
   }
 
   .submenu-top {
