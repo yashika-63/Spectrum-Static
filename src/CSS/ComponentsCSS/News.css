@@ -88,5 +88,9 @@
   .multi-column {
     column-count: 1;
   }
+
+  .news-title {
+    height: 80px;
+  }
 }
 

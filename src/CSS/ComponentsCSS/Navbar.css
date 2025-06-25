@@ -315,6 +315,17 @@
   .mobile-submenu a:hover {
     color: var(--red);
   }
+
+  .menu-tab::after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 5%;
+  width: 40%;
+  height: 3px;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
 }
 
 .only-mobile {
