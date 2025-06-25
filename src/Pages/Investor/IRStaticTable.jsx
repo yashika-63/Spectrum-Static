@@ -30,7 +30,7 @@ const IRStaticTable = ({ title, files }) => {
                   </a>
                 </td>
                 <td>
-                  <a href={fileUrl} download>
+                  <a href={fileUrl} download target="_blank" rel="noreferrer">
                     <FaDownload />
                   </a>
                 </td>

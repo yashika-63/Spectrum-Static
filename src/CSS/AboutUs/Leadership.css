@@ -8,8 +8,7 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 60px;
   justify-items: center;
-  margin-top: 100px;
-  
+  margin-top: 100px;  
 }
 
 .card {
@@ -102,7 +101,8 @@
   .grid-container {
     display: flex;
     flex-direction: column;
-  }
+    margin-top: 0px;
+}
 
   .card {
     padding-top: 50px;

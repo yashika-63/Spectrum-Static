@@ -1,4 +1,3 @@
-/* src/styles/contact.css */
 .contact-layout {
   padding: 20px 40px;
   background-color: #fff;
@@ -128,5 +127,9 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
+      justify-content: left;
+      align-items: flex-start;
+      padding: 40px 30%;
+      margin-bottom: 60px;
   }
 }

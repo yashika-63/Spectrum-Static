@@ -66,4 +66,8 @@
   .left {
     max-width: 100%;
   }
+
+  .tab-content {
+    flex-direction: column;
+  }
 }

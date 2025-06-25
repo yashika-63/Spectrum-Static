@@ -81,7 +81,7 @@ const IRSidebarLayout = () => {
                     <a href={url} target="_blank" rel="noreferrer" className="list-icon">
                       <FaEye />
                     </a>
-                    <a href={url} download className="list-icon">
+                    <a href={url} download className="list-icon" target="_blank" rel="noreferrer">
                       <FaDownload />
                     </a>
                   </div>

@@ -1,11 +1,13 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "../../CSS/AboutUs/WhistleBlower.css";
-import '../../CSS/ComponentsCSS/News.css';
-import '../../CSS/AboutUs/Careers.css'
+import "../../CSS/ComponentsCSS/News.css";
+import "../../CSS/AboutUs/Careers.css";
+import { toast } from 'react-toastify';
 
 const WhistleBlower = () => {
   const formRef = useRef();
+  const [loading, setLoading] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -19,12 +21,12 @@ const WhistleBlower = () => {
       )
       .then(
         () => {
-          alert("Concern submitted successfully!");
+          toast.success("Concern submitted successfully!");
           formRef.current.reset();
         },
         (error) => {
           console.error(error.text);
-          alert("Failed to submit concern. Please try again.");
+          toast.error("Failed to submit concern. Please try again.");
         }
       );
   };
@@ -33,27 +35,15 @@ const WhistleBlower = () => {
     <div className="wb-main">
       <h2 className="title">Report a Concern</h2>
       <p>
-        Your voice matters. Write in confidence directly to the promoter Mr. Deepak Chaudhari to report misconduct and unethical issues.
+        Your voice matters. Write in confidence directly to the promoter Mr.
+        Deepak Chaudhari to report misconduct and unethical issues.
       </p>
       <div className="wb-container">
         <form className="wb-form" ref={formRef} onSubmit={sendEmail}>
-          <input
-            type="text"
-            name="name"
-            placeholder="Your Name"
-            required
-          />
-          <input
-            type="email"
-            name="email"
-            placeholder="Your Email"
-            required
-          />
-          <input
-    type="date"
-    name="date"
-    required
-  />
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <label className="wb-label">Date of Incident: </label>
+          <input type="date" name="date" required max={new Date().toISOString().split("T")[0]}/>
           <select name="status" required>
             <option value="">Select Status</option>
             <option value="Occurred">Occurred</option>
@@ -85,7 +75,9 @@ const WhistleBlower = () => {
             required
           />
           <div className="modal-buttons">
-          <button type="submit" className="read-more">Submit Concern</button>
+            <button type="submit" className="read-more">
+              {loading ? <span className="spinner"></span> : "Submit Concern"}
+            </button>
           </div>
         </form>
       </div>

@@ -15,7 +15,7 @@ const CareerModal = ({ title, content, buttonText, onClose, onNext }) => {
           <p className="modal-content">
             {content.includes("@") ? (
               <>
-                Send us your resume at{" "}
+                Send us your resume at{" "} <br />
                 <a
                   href="mailto:careers@spectrum-india.com"
                   className="mail-link"

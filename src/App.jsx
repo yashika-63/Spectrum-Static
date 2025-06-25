@@ -29,10 +29,12 @@ import Contact from "./Pages/AboutUs/Contact";
 import WhistleBlower from "./Pages/AboutUs/WhistleBlower";
 import InvestorRelations from "./Pages/Investor/InvestorRelations";
 import PrivacyPolicy from "./Pages/Components/PrivacyPolicy";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   return (
     <div className="App">
+      <ToastContainer />
       <Router>
         <Navbar />
         <ScrollToTop />
@@ -62,10 +64,19 @@ function App() {
 
             <Route path="/HealthTech" element={<HealthTech />} />
             <Route path="/WiringDevices" element={<WiringDevices />} />
-            <Route path="/ProtectionSwitchgear" element={<ProtectionSwitchgear />} />
+            <Route
+              path="/ProtectionSwitchgear"
+              element={<ProtectionSwitchgear />}
+            />
             <Route path="/EVChargers" element={<EVChargers />} />
-            <Route path="/ElectricalPowerPanels" element={<ElectricalPowerPanel />} />
-            <Route path="/ContractManufacturing" element={<ContractManufacturing />} />
+            <Route
+              path="/ElectricalPowerPanels"
+              element={<ElectricalPowerPanel />}
+            />
+            <Route
+              path="/ContractManufacturing"
+              element={<ContractManufacturing />}
+            />
           </Routes>
         </div>
         <Footer />

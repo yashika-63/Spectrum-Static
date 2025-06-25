@@ -71,7 +71,7 @@ export const leadershipData = [
   },
    {
     name: "Mr. Vikash Mittal",
-    title: "Chief Manufacturing officer",
+    title: "Chief Manufacturing Officer",
     email: "vikash.mittal@spectrum-india.com",
     photo: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/VikashMittal.jpg",
     description: "Mr. Vikash Mittal, the Chief Manufacturing Officer, brings 26 years of extensive experience. As Senior Director of Operations at Samsung, he led high-volume manufacturing, complex supply chains, process innovation, and large strategic projects in a highly competitive environment. Vikash is driving Spectrum's transformation and overseeing manufacturing operations across all verticals benchmarked to global industry standards taking Spectrum to a new league of global businesses."
