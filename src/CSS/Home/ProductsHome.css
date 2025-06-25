@@ -198,6 +198,10 @@
     margin: 50px 0;
   }
 
+  .menu {
+    padding: 0px;
+  }
+
   .menu-row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -213,6 +217,26 @@
     font-size: 16px;
     word-break: break-word;
   }
+  
+.menu-item:not(:nth-child(n+1))::after {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 200px;
+  width: 2px;
+  height: 70%;
+  background-color: #eee;
+}
+
+.menu-row:nth-of-type(3) .menu-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 1px;
+  background-color: #ddd;
+}
 
   .submenu {
     width: 70%;
