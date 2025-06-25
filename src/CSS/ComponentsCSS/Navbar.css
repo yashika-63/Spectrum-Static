@@ -10,6 +10,7 @@
   left: 0;
   right: 0;
   flex-wrap: wrap;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-logo img {
@@ -63,6 +64,7 @@
 
 .navbar-links.open {
   transition: all 0.3s ease;
+  width: 100%;
 }
 
 .menu-tab {
@@ -196,6 +198,8 @@
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
+    position: absolute;
+    width: 100%;
   }
 
   .navbar-links {
@@ -267,6 +271,7 @@
     flex-direction: column;
     padding: 0px;
     margin-top: 0px;
+    width: 100%;
   }
 
   .mega-wrapper {

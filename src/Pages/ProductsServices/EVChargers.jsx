@@ -3,7 +3,7 @@ import "../../CSS/AboutUs/CorePath.css";
 
 const items = [
   {
-    label: "Chargers",
+    label: "EV Chargers",
     text: "We’re dedicated to powering the future of electric mobility with reliable and accessible EV charging solutions. Our range includes AC chargers designed for homes and destination charging, and we’re exploring DC fast chargers to meet the demands of rapid public charging. We focus on creating chargers that are efficient, durable, and easy to use, ensuring a seamless experience for EV owners.",
   },
 ];
@@ -20,8 +20,8 @@ export default function EVChargers() {
         {items.map((item, index) => (
           <div className="core-block-services" key={index}>
             <div className="title-section">
-              <span className="our-black">EV &nbsp;</span>
-              <span className="label-red"> {item.label}</span>
+              <span className="our-black">{item.label}</span>
+              {/* <span className="label-red"> {item.label}</span> */}
             </div>
 
             <div className="indicator-wrapper">

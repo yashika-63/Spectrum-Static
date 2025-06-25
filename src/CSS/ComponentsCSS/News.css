@@ -75,4 +75,18 @@
   margin-bottom: 150px;
 }
 
+.multi-column {
+  column-count: 2;
+  column-gap: 30px;
+  font-size: 16px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  margin-bottom: 150px;
+}
+
+@media (max-width: 768px) {
+  .multi-column {
+    column-count: 1;
+  }
+}
 

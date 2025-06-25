@@ -44,4 +44,10 @@
   .newsdetail-page {
     padding: 20px;
   }
+
+  .filters {
+
+    flex-direction: column;
+    width: 100%;
+  }
 }

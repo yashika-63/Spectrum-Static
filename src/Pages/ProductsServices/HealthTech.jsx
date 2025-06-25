@@ -4,7 +4,7 @@ import "../../CSS/AboutUs/CorePath.css";
 const items = [
   {
     label: "MRI Machine",
-    text: "Healthcare should be accessible, affordable, and focused on the people it serves. That’s why we craft MRI machines that redefine precision, comfort, and reliability. Our advanced MRI systems are designed to deliver crystal-clear imaging, enabling healthcare professionals to diagnose and confidently provide timely, accurate care. Whether you’re managing a bustling hospital, a specialized diagnostic center, or a cutting-edge research facility, our solutions are tailored to meet your unique needs.",
+    text: "Healthcare should be accessible, affordable, and focused on the people it serves. That’s why we craft MRI machines that redefine precision, comfort, and reliability. Our advanced MRI systems are designed to deliver crystal-clear imaging, enabling healthcare professionals to diagnose and confidently provide timely, accurate care. Whether you’re managing a bustling hospital, a specialized diagnostic center, or a cutting-edge research facility, our solutions are tailored to meet unique needs.",
   },
 ];
 
@@ -13,7 +13,6 @@ export default function HealthTech() {
     <div className="core-path">
       <h1 className="title">HealthTech</h1>
       <p className="core-para">
-        We craft MRI machines that redefine precision, comfort, and reliability.
         Our advanced MRI systems are designed to deliver crystal-clear imaging,
         enabling healthcare professionals to diagnose and confidently provide
         timely, accurate care.

@@ -7,20 +7,20 @@ const tabs = [ "Careers", "Investor Relations", "Contact"];
 
 const tabContent = {
   Careers: {
-    heading: "Come home to Spectrum",
+    heading: "Join us to make a difference to the world",
     text: "Spectrum Electrical is where ideas spark, innovation thrives, and careers are built. We design and deliver cutting-edge electrical components that power industries and improve lives. Join us in building a smarter, more connected tomorrow.",
     buttonText: "VIEW OPEN POSITIONS",
     route: "/Careers"
   },
   'Investor Relations': {
     heading: "Building trust and transparency in creating value",
-    text: "We prioritize transparent communication and trust-building with our investors. Providing Financial and Non-financial data enhancing long-term credibility with the investment community. We're committed to keeping you informed every step of the way, fostering a strong partnership for mutual success.",
+    text: "We prioritize transparent communication and trust-building with our investors. Providing Financial and Non-financial data enhancing long-term credibility with the investment community. We are committed to create unparalleled value at every step of the way, fostering a strong partnership that live for generations to come.",
     buttonText: "EXPLORE INVESTOR INFO",
     route: "/InvestorRelations"
   },
   Contact: {
     heading: "Get in Touch",
-    text: "Ready to power up your next project? Connect with Spectrum Electrical - proudly manufacturing in Jalgaon, Nashik, and Bengaluru - and let’s build something exceptional together.",
+    text: "Are you looking for a strategic partner to create new products and markets? You are at the right place, be assured.",
     buttonText: "CONTACT US",
     route: "/ContactUs"
   }

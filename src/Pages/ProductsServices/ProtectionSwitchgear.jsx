@@ -4,7 +4,7 @@ import "../../CSS/AboutUs/CorePath.css";
 const items = [
   {
     label: "MCB",
-    text: "Spectrum’s Miniature Circuit Breakers (MCB) deliver reliable protection against overloads and short circuits, ensuring safe and uninterrupted power for your home and commercial spaces.",
+    text: "Spectrum’s Miniature Circuit Breakers (MCB) deliver reliable protection against overloads and short circuits, ensuring safe and uninterrupted power for home and commercial spaces.",
   },
   {
     label: "MCCB",
@@ -12,11 +12,11 @@ const items = [
   },
   {
     label: "RCCB",
-    text: "With Spectrum’s Residual Current Circuit Breakers (RCCB), you get advanced fault detection technology that safeguards lives and property by preventing electric shocks and leakage currents.",
+    text: "Spectrum’s Residual Current Circuit Breakers (RCCB), deliver advanced fault detection technology that safeguard lives and property by preventing electric shocks and leakage currents.",
   },
   {
-    label: "DB's",
-    text: "We offer high-quality distribution boards designed to manage power seamlessly across multiple circuits. With advanced safety features to handle faults effectively, our boards provide the reliability and protection you can count on. Built to meet strict electrical standards and tailored to fit your specific needs, our distribution boards ensure smooth operation for residential, commercial, or industrial applications.",
+    label: "Distribution Boards",
+    text: "We offer high-quality distribution boards designed to manage power seamlessly across multiple circuits. With advanced safety features to handle faults effectively, our boards provide the reliability and protection you can count on. Built to meet strict electrical standards and tailored to fit specific needs, our distribution boards ensure smooth operation for residential, commercial, or industrial applications.",
   },
 ];
 
@@ -25,7 +25,7 @@ export default function ProtectionSwitchgear() {
     <div className="core-path">
       <h1 className="title">Distribution Boards</h1>
       <p className="core-para">
-        At Spectrum, we provide a complete range of protection switchgear MCBs,
+        We provide a complete range of protection switchgear MCBs,
         MCCBs, and RCCBs along with high-quality distribution boards to ensure
         safe, efficient, and reliable electrical systems. Engineered to guard
         against overloads, short circuits, and other faults, our products meet

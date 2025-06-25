@@ -79,3 +79,54 @@
   border-radius: 30px;
   margin: 0 20px;
 }
+
+
+@media screen and (max-width: 768px) {
+  .timeline-line {
+    left: 0px;
+    transform: none;
+  }
+
+  .timeline-item {
+    width: 100%;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-left: 10px;
+  }
+
+  .timeline-item.right {
+    left: 0;
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .timeline-item .circle,
+  .timeline-item.right .circle {
+    left: 0;
+    right: auto;
+    transform: translate(0);
+    position: absolute;
+  }
+
+  .timeline-item .content {
+    margin-left: 60px;
+    margin-right: 20px;
+    max-width: calc(100% - 80px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .timeline-item .content {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  .timeline-item .circle {
+    padding: 10px;
+    font-size: 12px;
+  }
+}

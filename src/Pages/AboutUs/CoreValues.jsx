@@ -60,7 +60,7 @@ export default function CorePath() {
     <div className="core-path">
       <h1 className="title">Corepath</h1>
       <p className="core-para">
-        At Spectrum, we build a sustainable and innovative future through
+        We build a sustainable and innovative future through
         transformative solutions. Guided by our mission and core values, we
         deliver excellence with integrity, innovation, and a global mindset
         empowering lasting partnerships and impactful growth.

@@ -9,7 +9,7 @@ export const productData = [
     title: "Wiring Devices",
     link: "/WiringDevices",
     description:
-      "We provide a wide range of wiring devices, including switches, outlets, and dimmers, all designed with your safety, convenience, and durability in mind. Made with high-quality materials and precision assembly, our products deliver reliable performance you can trust.",
+      "We provide a wide range of wiring devices, including switches, outlets, and dimmers, all designed with user's safety, convenience, and durability in mind. Made with high-quality materials and precision assembly, our products deliver reliable performance user can trust.",
     subItems: ["Switches", "Outlets", "Dimmers"],
   },
   {
@@ -22,14 +22,14 @@ export const productData = [
   {
     title: "Electrical Power Panels",
     link: "/ElectricalPowerPanels",
-    description: `Spectrum’s advanced electrical power panels ranging from distribution to control and breaker panels ensure safe, efficient energy management for modern homes and businesses. Built with a focus on reliability and adaptability, our panels deliver seamless connectivity and trusted performance tailored to your specific needs.`,
+    description: `Spectrum’s advanced electrical power panels ranging from distribution to control and breaker panels ensure safe, efficient energy management. Built with a focus on reliability and adaptability, our panels deliver seamless connectivity and trusted performance tailored to user's specific needs.`,
     subItems: ["Electrical Power Panels"],
   },
   {
     title: "EV Chargers",
     link: "/EVChargers",
     description:
-      "Manufacturing Setup for 30~400KW, Leveraging our expertise in electrical solutions, we are entering the EV charging segment with innovative, efficient, and scalable charging infrastructure to support the growing electric mobility ecosystem.",
+      "Manufacturing Setup for 30~400KW, Leveraging our expertise in electrical solutions, we manufacture EV chargers with innovative, efficient, and scalable charging infrastructure to support the growing electric mobility ecosystem.",
     subItems: ["EV Chargers"],
   },
   {

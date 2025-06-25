@@ -28,7 +28,7 @@ const NewsDetails = () => {
         <div className="line" />
       </div>
 
-      <p className="news-description" style={{ whiteSpace: "pre-wrap" }}>
+      <p className="news-description multi-column" style={{ whiteSpace: "pre-wrap" }}>
         {news.description}
       </p>
     </div>

@@ -33,8 +33,7 @@ const WhistleBlower = () => {
     <div className="wb-main">
       <h2 className="title">Report a Concern</h2>
       <p>
-        Your voice matters, submit confidential reports of misconduct or
-        unethical practices.
+        Your voice matters. Write in confidence directly to the promoter Mr. Deepak Chaudhari to report misconduct and unethical issues.
       </p>
       <div className="wb-container">
         <form className="wb-form" ref={formRef} onSubmit={sendEmail}>

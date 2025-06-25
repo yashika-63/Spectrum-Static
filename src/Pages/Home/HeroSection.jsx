@@ -35,7 +35,7 @@ const HeroSection = () => {
       </div>
 
       <div className="below-text">
-        Spectrum delivers ethical excellence, advanced manufacturing, certified
+        Spectrum delivers excellence, advanced manufacturing, certified
         quality, and trusted partnerships - driving responsible, reliable
         solutions for lasting growth.
       </div>
