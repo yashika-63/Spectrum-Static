@@ -10,7 +10,7 @@ export const productData = [
     link: "/WiringDevices",
     description:
       "We provide a wide range of wiring devices, including switches, outlets, and dimmers, all designed with user's safety, convenience, and durability in mind. Made with high-quality materials and precision assembly, our products deliver reliable performance user can trust.",
-    subItems: ["Switches", "Outlets", "Dimmers"],
+    subItems: ["Switches", "Outlets", "Dimmers", "Fan Regulators", "Plates"],
   },
   {
     title: "Protection Switchgear",
@@ -49,7 +49,6 @@ export const productData = [
       "Jig Fixtures",
       "Plating",
       "Electromechanical Assemblies",
-      "Process Automation",
     ],
   },
 ];

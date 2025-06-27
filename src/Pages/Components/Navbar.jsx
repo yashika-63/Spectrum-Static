@@ -15,7 +15,9 @@ const menuData = {
     "Wiring Devices": [
       { label: "Switches", link: "/WiringDevices" },
       { label: "Outlets", link: "/WiringDevices" },
+      { label: "Fan Regulators", link: "/WiringDevices" },
       { label: "Dimmers", link: "/WiringDevices" },
+      { label: "Plates", link: "/WiringDevices" },
     ],
     "Protection Switchgear": [
       { label: "MCB", link: "/ProtectionSwitchgear" },
@@ -48,7 +50,6 @@ const menuData = {
         label: "Electromechanical Assemblies",
         link: "/products/contract/assembly",
       },
-      { label: "Process Automation", link: "/products/contract/assembly" },
     ],
   },
   "investor relations": {

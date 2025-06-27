@@ -4,15 +4,24 @@ import "../../CSS/AboutUs/CorePath.css";
 const items = [
   {
     label: "Switches",
-    text: "Our switches are engineered for seamless performance, combining safety, style, and ease of use. Designed with durable materials and precise mechanisms, they ensure reliable operation over time. Whether for home or commercial spaces, our switches complement any interior while delivering dependable control with variety of designs to match aesthetic and functional needs.",
+    text: "Our switches are engineered for seamless performance, combining safety, style, and ease of use. Designed with durable materials and precise mechanisms, they ensure reliable operation over time exceeding by far minimum operations requirement. These switches are tested for over 200,000 operations to exceed BIS standard requirement of 40,000 operations. Whether for home or commercial spaces, our switches complement any interior while delivering dependable control with variety of designs to match aesthetic and functional needs.",
   },
   {
     label: "Outlets",
-    text: "Enhance ambiance with our range of dimmers that offer smooth lighting control at fingertips. Built for efficiency and comfort, they help you adjust brightness levels effortlessly to suit any setting. Our dimmers are compatible with various lighting types and are crafted to ensure safety and durability. They’re the perfect solution for energy savings and personalized lighting experiences.",
+    text: "Whether it’s your cozy reading nook or the heart of your kitchen, our sockets complement your space with safe, stylish, and hassle-free power solutions, Engineered with high-quality materials and precision components, our sockets combine robust protection, long-lasting durability, and stylish design for every environment delivering reliable performance with built-in safety features. Our power outlets are crafted to handle daily demands so you stay connected, protected, and in control.",
+  },
+  
+  {
+    label: "Fan Regulators",
+    text: "Crafted with high-grade materials and engineered for energy-efficient performance, our fan regulators offer smooth control with precision, sleek style, and sustained savings keeping comfort effortless and elegant making every breeze just right.",
   },
   {
     label: "Dimmers",
-    text: "Our outlets are designed to provide safe and stable power access wherever you need it. Constructed using high-quality components, they resist wear and deliver consistent performance. From standard to specialty configurations, our outlets support both residential and commercial power needs. Experience peace of mind with tamper-resistant and long-lasting solutions that prioritize safety and convenience.",
+    text: "Transform every space with our premium dimmers designed for intuitive lighting control, energy efficiency, and timeless style. Compatible with diverse lighting types, they deliver smooth brightness adjustment and lasting performance for a personalized ambiance that feels just right.",
+  },
+  {
+    label: "Plates",
+    text: "Engineered for elegance and built to last, our plates seamlessly complement switches and sockets with a precise fit and premium craftsmanship. Choose from an array of finishes—sleek coloured glass, high-gloss acrylic, various natural textures, or wood-inspired designs—each available in a variety of rich colours to match your space. Whether you’re styling a minimalist studio, a luxurious lounge, or a contemporary commercial setting, our versatile plate collection delivers a perfect blend of design flexibility, durability, and timeless appeal",
   },
 ];
 

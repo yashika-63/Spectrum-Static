@@ -23,7 +23,7 @@ const items = [
 export default function ProtectionSwitchgear() {
   return (
     <div className="core-path">
-      <h1 className="title">Distribution Boards</h1>
+      <h1 className="title">Protection Switchgear</h1>
       <p className="core-para">
         We provide a complete range of protection switchgear MCBs,
         MCCBs, and RCCBs along with high-quality distribution boards to ensure
