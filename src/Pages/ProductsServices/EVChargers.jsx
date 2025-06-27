@@ -4,7 +4,7 @@ import "../../CSS/AboutUs/CorePath.css";
 const items = [
   {
     label: "EV Chargers",
-    text: "We’re dedicated to powering the future of electric mobility with reliable and accessible EV charging solutions. Our range includes AC chargers designed for homes and destination charging, and we’re exploring DC fast chargers to meet the demands of rapid public charging. We focus on creating chargers that are efficient, durable, and easy to use, ensuring a seamless experience for EV owners.",
+    text: "We’re dedicated to generate the future of electric mobility. Our range includes AC chargers designed for homes and destination charging, and we’re exploring DC fast chargers to meet the demands of rapid public charging. We focus on creating chargers that are efficient, durable, and easy to use, ensuring a seamless experience for EV owners.",
   },
 ];
 

@@ -31,7 +31,7 @@ const PeoplePage = () => {
         <div className="filters">
           <input
             type="text"
-            placeholder="Search news..."
+            placeholder="Search Events..."
             onChange={(e) => setSearchTerm(e.target.value)}
           />
           <select

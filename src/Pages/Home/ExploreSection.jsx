@@ -14,7 +14,7 @@ const tabContent = {
   },
   'Investor Relations': {
     heading: "Building trust and transparency in creating value",
-    text: "We prioritize transparent communication and trust-building with our investors. Providing Financial and Non-financial data enhancing long-term credibility with the investment community. We are committed to create unparalleled value at every step of the way, fostering a strong partnership that live for generations to come.",
+    text: "We prioritize transparent communication and trust-building with our investors. Providing Financial and Non-financial data enhancing long-term credibility with the investment community. We are committed to create unparalleled value at every step of the way, fostering a strong partnership that lives for generations to come.",
     buttonText: "EXPLORE INVESTOR INFO",
     route: "/InvestorRelations"
   },

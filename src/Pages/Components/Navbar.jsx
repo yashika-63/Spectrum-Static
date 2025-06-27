@@ -19,33 +19,29 @@ const menuData = {
       { label: "Dimmers", link: "/WiringDevices" },
       { label: "Plates", link: "/WiringDevices" },
     ],
-    "Protection Switchgear": [
+    "Low Voltage Switchgear": [
       { label: "MCB", link: "/ProtectionSwitchgear" },
-      { label: "MCCB", link: "/ProtectionSwitchgear" },
+      { label: "Isolators", link: "/ProtectionSwitchgear" },
       { label: "RCCB", link: "/ProtectionSwitchgear" },
+      { label: "RCBO", link: "/ProtectionSwitchgear" },
       { label: "Distribution Boards", link: "/ProtectionSwitchgear" },
+      { label: "MCCB", link: "/ProtectionSwitchgear" },
     ],
     "Electrical Power Panels": [
       { label: "Electrical Power Panels", link: "/ElectricalPowerPanels" },
     ],
     "EV Chargers": [{ label: "EV Chargers", link: "/EVChargers" }],
-    "Contract Manufacturing": [
-      { label: "Metal Stamping", link: "/ContractManufacturing" },
+    "Manufacturing Services": [
+      { label: "Surface Treatment", link: "/ContractManufacturing" },
       { label: "Metal Enclosures", link: "/ContractManufacturing" },
+      { label: "Metal Stamping", link: "/ContractManufacturing" },
+      { label: "Precision Injection Moulding", link: "/ContractManufacturing" },
       {
         label: "Irrigation Products Fabrication",
         link: "/ContractManufacturing",
       },
-      { label: "Precision Injection Moulding", link: "/ContractManufacturing" },
-      {
-        label: "Switchgear Plastic Components",
-        link: "/ContractManufacturing",
-      },
       { label: "Automotive Components", link: "/ContractManufacturing" },
-      { label: "Moulds", link: "/ContractManufacturing" },
-      { label: "Precision press tools", link: "/ContractManufacturing" },
-      { label: "Jig Fixtures", link: "/ContractManufacturing" },
-      { label: "Plating", link: "/ContractManufacturing" },
+      { label: "Tool Room", link: "/ContractManufacturing" },
       {
         label: "Electromechanical Assemblies",
         link: "/products/contract/assembly",
@@ -84,7 +80,7 @@ const menuData = {
   social: {
     Insights: [
       { label: "CSR", link: "/CSR" },
-      { label: "People", link: "/Events" },
+      { label: "Events", link: "/Events" },
       { label: "Sustainability", link: "/Sustainability" },
     ],
   },

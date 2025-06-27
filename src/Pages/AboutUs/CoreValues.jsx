@@ -18,11 +18,6 @@ const items = [
 
 const coreValues = [
   {
-    title: "Ethical Practices",
-    description:
-      "Adherence to highest ethical standards in every aspect of the business.",
-  },
-  {
     title: "Innovation",
     description:
       "Tireless innovation drives every effort to anticipate and solve complex manufacturing challenges.",
@@ -38,20 +33,25 @@ const coreValues = [
       "We prioritize our customers’ needs, delivering quality and value.",
   },
   {
-    title: "Empathy",
-    description: "Understand and meet the needs of the customers and partners.",
-  },
-  {
-    title: "Sustainability",
-    description: "We uphold sustainability with BRSR, CSR, and ESG principles.",
-  },
-  {
     title: "Respect",
     description: "We treat everyone with dignity and equality.",
   },
   {
+    title: "Ethical Practices",
+    description:
+      "Adherence to highest ethical standards in every aspect of the business.",
+  },
+  {
+    title: "Empathy",
+    description: "Understand and meet the needs of the customers and partners.",
+  },
+  {
     title: "Global Approach",
     description: "Our processes and services are standardized and consistent.",
+  },
+  {
+    title: "Sustainability",
+    description: "We uphold sustainability with BRSR, CSR, and ESG principles.",
   },
 ];
 

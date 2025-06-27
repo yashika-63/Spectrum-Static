@@ -9,15 +9,15 @@ export const productData = [
     title: "Wiring Devices",
     link: "/WiringDevices",
     description:
-      "We provide a wide range of wiring devices, including switches, outlets, and dimmers, all designed with user's safety, convenience, and durability in mind. Made with high-quality materials and precision assembly, our products deliver reliable performance user can trust.",
-    subItems: ["Switches", "Outlets", "Dimmers", "Fan Regulators", "Plates"],
+      "We provide a wide range of wiring devices, including switches, outlets, fan regulators, dimmers, and plates, all designed with user's safety, convenience, and durability in mind. Made with high-quality materials and precision assembly, our products deliver reliable performance user can trust.",
+    subItems: ["Switches", "Outlets", "Fan Regulators", "Dimmers", "Plates"],
   },
   {
-    title: "Protection Switchgear",
+    title: "Low Voltage Switchgear",
     link: "/ProtectionSwitchgear",
     description:
-      "Spectrum offers a comprehensive range of protection switchgear and high-quality distribution boards designed to ensure safe, reliable electrical performance. Engineered with advanced manufacturing techniques and tested beyond compliance standards, our products safeguard against overloads, short circuits, and power faults across residential, commercial, and industrial applications. Trust Spectrum for robust, customized solutions that prioritize safety, efficiency, and long-term dependability.",
-    subItems: ["MCB", "MCCB", "RCCB", "Distribution Boards"],
+      "Spectrum offers a comprehensive range of low voltage switchgear and high-quality distribution boards designed to ensure safe, reliable electrical performance. Engineered with advanced manufacturing techniques and tested beyond compliance standards, our products safeguard against overloads, short circuits, and power faults across residential, commercial, and industrial applications. Trust Spectrum for robust, customized solutions that prioritize safety, efficiency, and long-term dependability.",
+    subItems: ["MCB", "Isolators", "RCCB", "RCBO", "Distribution Boards", "MCCB"],
   },
   {
     title: "Electrical Power Panels",
@@ -33,21 +33,18 @@ export const productData = [
     subItems: ["EV Chargers"],
   },
   {
-    title: "Contract Manufacturing",
+    title: "Manufacturing Services",
     link: "/ContractManufacturing",
     description:
-      "Spectrum offers end-to-end contract manufacturing services including metal fabrication, precision moulding, plating, and electromechanical assemblies. With expertise in advanced tooling, automation, and component manufacturing, we deliver high-quality, customized solutions across industries.",
+      "Spectrum offers end-to-end manufacturing services including metal fabrication, precision moulding, surface treatment, and electromechanical assemblies. With expertise in advanced tooling, automation, and component manufacturing, we deliver high-quality, customized solutions across industries.",
     subItems: [
-      "Metal Stamping",
+      "Surface Treatment",
       "Metal Enclosures",
-      "Irrigation Products Fabrication",
+      "Metal Stamping",
       "Precision Injection Moulding",
-      "Switchgear Plastic Components",
+      "Irrigation Products Fabrication",
       "Automotive Components",
-      "Moulds",
-      "Precision Press Tools",
-      "Jig Fixtures",
-      "Plating",
+      "Tool Room",
       "Electromechanical Assemblies",
     ],
   },

@@ -71,7 +71,7 @@ export const peopleData = [
     id: 1,
     date: "08/03/2025",
     title: "International women's day at Spectrum",
-    description: "On March 8, 2025, Spectrum's locations across India came alive with vibrant celebrations as we honored International Women's Day with our incredible women employees. The day was filled with enthusiasm, showcasing the strength, resilience, and invaluable contributions of the women who power our success. With engaging activities, heartfelt recognition, and moments of togetherness, the event highlighted our commitment to fostering a culture of inclusivity and empowerment. It was a celebration of not just achievements but also the collective spirit that drives progress, reflecting Spectrum's' dedication to uplifting women and championing equality as part of our CSR ethos.",
+    description: "On March 8, 2025, Spectrum's locations across India came alive with vibrant celebrations as we honored International Women's Day with our incredible women employees. The day was filled with enthusiasm, showcasing the strength, resilience, and invaluable contributions of the women who power our success. With engaging activities, heartfelt recognition, and moments of togetherness, the event highlighted our commitment to fostering a culture of inclusivity and empowerment. It was a celebration of not just achievements but also the collective spirit that drives progress, reflecting Spectrum's dedication to uplifting women and championing equality as part of our CSR ethos.",
   },
   {
     id: 2,

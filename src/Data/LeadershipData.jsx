@@ -117,7 +117,7 @@ export const leadershipData = [
     email: "sanjiv.bhole@spectrum-india.com",
     photo: "",
     // photo: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/SanjivBhole.png",
-    description: "Mr. Bhole embarked on a successful entrepreneurial venture, providing contract manufacturing services dedicated to Legrand and Siemens for over two decades. Currently serving as Vice President of ODM Products, Mr. Bhole has been leading the development of similar high-value products for Spectrum. His profound industry experience and leadership are instrumental in driving innovation, operational excellence, and the successful execution of Spectrum's prestigious projects."
+    description: "Mr. Bhole embarked on a successful entrepreneurial venture, providing manufacturing services dedicated to Legrand and Siemens for over two decades. Currently serving as Vice President of ODM Products, Mr. Bhole has been leading the development of similar high-value products for Spectrum. His profound industry experience and leadership are instrumental in driving innovation, operational excellence, and the successful execution of Spectrum's prestigious projects."
   },
   {
     name: "Mr. Rahul Lavane",

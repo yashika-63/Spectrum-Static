@@ -40,8 +40,8 @@ const WhistleBlower = () => {
       </p>
       <div className="wb-container">
         <form className="wb-form" ref={formRef} onSubmit={sendEmail}>
-          <input type="text" name="name" placeholder="Your Name" required />
-          <input type="email" name="email" placeholder="Your Email" required />
+          <input type="text" name="name" placeholder="Your Name" />
+          <input type="email" name="email" placeholder="Your Email" />
           <label className="wb-label">Date of Incident: </label>
           <input type="date" name="date" required max={new Date().toISOString().split("T")[0]}/>
           <select name="status" required>

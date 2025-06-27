@@ -4,7 +4,7 @@ import "../../CSS/AboutUs/CorePath.css";
 const items = [
   {
     label: "Electrical Power Panels",
-    text: "We help you manage and distribute electricity safely and efficiently with our advanced electrical power panels. From distribution boards to control panels and breaker panels, our solutions are designed to meet the needs of modern homes and businesses. With a strong focus on safety, reliability, our panels are crafted to simplify energy management while adapting to specific requirements. Let Spectrum provide the innovative, high-quality power panels to power spaces with confidence and ease.",
+    text: "Our main LT Panel/PCC Panel are engineered to provide a comprehensive solution for electrical distribution, featuring advanced electrical and mechanical interlocking arrangements along with an Auto-load management facility. These panels are ideal for managing heavy loads while ensuring safety and efficiency.",
   },
 ];
 

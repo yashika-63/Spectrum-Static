@@ -26,12 +26,12 @@ const SustainabilityPage = () => {
 
   return (
     <div className="news-page">
-      <h2 className="title">Latest Events</h2>
+      <h2 className="title">Sustainability Initiatives</h2>
       <div className="news-header">
         <div className="filters">
           <input
             type="text"
-            placeholder="Search news..."
+            placeholder="Search Sustainability..."
             onChange={(e) => setSearchTerm(e.target.value)}
           />
           <select

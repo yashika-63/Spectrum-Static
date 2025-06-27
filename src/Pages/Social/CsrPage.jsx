@@ -31,7 +31,7 @@ const CsrPage = () => {
         <div className="filters">
           <input
             type="text"
-            placeholder="Search news..."
+            placeholder="Search CSR..."
             onChange={(e) => setSearchTerm(e.target.value)}
           />
           <select
