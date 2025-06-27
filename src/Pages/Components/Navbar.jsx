@@ -40,8 +40,8 @@ const menuData = {
         label: "Irrigation Products Fabrication",
         link: "/ContractManufacturing",
       },
-      { label: "Automotive Components", link: "/ContractManufacturing" },
-      { label: "Tool Room", link: "/ContractManufacturing" },
+      // { label: "Automotive Components", link: "/ContractManufacturing" },
+      { label: "Modern Tool Room", link: "/ContractManufacturing" },
       {
         label: "Electromechanical Assemblies",
         link: "/products/contract/assembly",

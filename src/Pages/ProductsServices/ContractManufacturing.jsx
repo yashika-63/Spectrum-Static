@@ -26,12 +26,12 @@ const items = [
   //   label: "Switchgear Plastic Components",
   //   text: "We’re dedicated to providing durable, high-performance components for low voltage switchgear needs. From circuit breakers and switches to safety device housings, we craft precision-engineered parts designed to deliver optimal control and protection for electrical systems. Using advanced plastic moulding, we ensure every component meets the highest standards of reliability and safety, tailored to the stringent demands of modern electrical applications.",
   // },
+  // {
+  //   label: "Automotive Components",
+  //   text: "We design and manufacture top-quality plastic components specifically for the automotive industry dashboards, bumpers, light housings, and more. With precision injection moulding, we create parts that deliver exceptional durability and sleek design, ensuring they meet even the toughest industry standards. Our components are engineered to handle the demands of modern vehicles, providing reliable strength with modern style and advanced functionality.",
+  // },
   {
-    label: "Automotive Components",
-    text: "We design and manufacture top-quality plastic components specifically for the automotive industry dashboards, bumpers, light housings, and more. With precision injection moulding, we create parts that deliver exceptional durability and sleek design, ensuring they meet even the toughest industry standards. Our components are engineered to handle the demands of modern vehicles, providing reliable strength with modern style and advanced functionality.",
-  },
-  {
-    label: "Tool Room",
+    label: "Modern Tool Room",
     text: "From precision moulds for plastic injection parts to advanced press tools and custom jigs and fixtures, we engineer tooling solutions that drive accuracy, consistency, and productivity across automotive, electrical, and consumer industries. Crafted for flawless performance built to meet the highest standards.",
   },
   {
