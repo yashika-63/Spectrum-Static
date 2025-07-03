@@ -53,6 +53,7 @@
 
 .card-back {
     border: 4px double var(--red);
+    text-align: justify;
 }
 
 .card-photo-full {
@@ -60,7 +61,6 @@
   height: 80%;
   object-fit: cover;
   border-radius: 10px;
-  padding-top: 20px;
 }
 
 .card-info {

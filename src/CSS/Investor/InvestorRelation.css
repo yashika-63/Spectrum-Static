@@ -173,6 +173,9 @@
 
 .static-buttons {
   margin-bottom: 20px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
 }
 
 .static-buttons button {

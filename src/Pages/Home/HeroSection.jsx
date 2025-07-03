@@ -14,13 +14,14 @@ const HeroSection = () => {
     <div className="hero-container">
       <div className="overlay">
         <p className="hero-title">
+          {/* We Propel Your Business Growth */}
           Spectrum - Conglomerate with a steadfast successful journey of delivering innovation and manufacturing excellence propeling growth for clients.
         </p>
         <p className="hero-subtitle">
-          Spectrum is commited to innovation in our product lines, integrating
+          {/* Spectrum is commited to innovation in our product lines, integrating
           cutting-edge technologies and sustainable practices, meeting the
           evolving needs of our customers while driving industry standards
-          forward.
+          forward. */}
           {/* We deliver success when we undertake responsibility from routine
           production to unchartered large scale projects. With decades of
           experience, state-of-the-art facilities and talented people, we

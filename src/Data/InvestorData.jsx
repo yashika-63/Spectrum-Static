@@ -223,7 +223,7 @@ export const investorData = {
       },
     },
     Subsidiaries: {
-      Subsidiaries: {
+      "Spectrum Electrical Technologies Private Limited": {
         "2019-20": [
           {
             label: "SELSPL_Financial Statements_FY 2019-20",
@@ -269,6 +269,11 @@ export const investorData = {
           },
         ],
       },
+      "Spectrum HealthTech Private Limited": {
+
+      },
+      "MachMaster Private Limited": {},
+      "Pristine IT Code Private Limited": {},
       "Board Meeting": {
         "2019-20": [
           {
@@ -610,33 +615,13 @@ export const investorData = {
           },
         ],
       },
-      "Financial Results": {
-        "2018-19": [
-          { label: "SEIL_Audited Financial Results_31.03.2019", url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/FinancialResults/SEIL_Audited+Financial+Results_31.03.2019.pdf" },
-        ],
-        "2019-20": [
-          { label: "SEIL_Audited Financial Results_31.03.2020", url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/FinancialResults/SEIL_Audited+Financial+Results_31.03.2020.pdf" },
-          { label: "SEIL_Unaudited Financial Results_30.09.2019", url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/FinancialResults/SEIL_Unaudited+Financial+Results_30.09.2019.pdf" },
-        ],
-        "2020-21": [
-          { label: "SEIL_Unaudited Financial Results_ 30.09.2020", url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/FinancialResults/SEIL_Unaudited+Financial+Results_+30.09.2020.pdf" },
-          { label: "SEIL_Audited Financial Results_31.03.2021", url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/FinancialResults/SEIL_Audited+Financial+Results_31.03.2021.pdf" },
-        ],
-        "2021-22": [
-          { label: "SEIL_Audited Financial Results_31.03.2022", url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/FinancialResults/SEIL_Audited+Financial+Results_31.03.2022.pdf" },
-          { label: "SEIL_Unaudited Financial Results_30.09.2021", url: "" },
-        ],
-        "2022-23": [
-          { label: "SEIL_Audited Financial Results_31.03.2023", url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/FinancialResults/SEIL_Audited+Financial+Results_31.03.2023.pdf" },
-          { label: "SEIL_Unaudited Financial Results_30.09.2022", url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/FinancialResults/SEIL_Unaudited+Financial+Results_30.09.2022.pdf" },
-        ],
+      "Corporate Governance Report": {},
+      "Annual Secretarial Compliance Report": {
         "2024-25": [
-          { label: "SPECTRUM_Financial Results_31032025", url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/FinancialResults/SPECTRUM_Financial+Results_31032025.pdf" },
-          { label: "SPECTRUM_Unaudited_Financial_Results_30092024", url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/FinancialResults/SPECTRUM_Unaudited_Financial_Results_30092024.pdf" },
-        ],
-      },
-      "Composition of Committies": {
-        "2024-25": [{ label: "Composition of Board Committees", url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Composition+of+committies/Composition+of+Board+Committees.pdf" }],
+          {
+            label: "SPECTRUM SACR 2024",
+            url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Disclosures/SPECTRUM_SACR_2024.pdf",
+          },],
       },
       "CSR": {
         "2021-22": [{ label: "Circular issued by the Ministry of Corporate Affair", url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/CSR/Circular+issued+by+the+Ministry+of+Corporate+Affair.pdf" },
@@ -645,12 +630,30 @@ export const investorData = {
       },
     },
     Disclosures: {
-      Disclosures: {
+      "Event Based Disclosures": {
         "2018-19": [
           {
             label:
               "SEIL_Dislosure under Regulation 30 of SEBI (SAST) Regulations, 2011",
             url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Disclosures/SEIL_Dislosure+under+Regulation+30+of+SEBI+(SAST)+Regulations%2C+2011.pdf",
+          }, 
+          {
+            label: "SEIL_Prospectus",
+            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Prospectus.pdf",
+          },
+          {
+            label:
+              "SEIL_Resignation of MS. SD Chopde and Co. Statutory Auditor",
+            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Resignation+of+MS.+SD+Chopde+and+Co.+Statutory+Auditor.pdf",
+          },
+          {
+            label: "SEIL_Resignation of Mrs. Sarita Zamwar_Company Secretary",
+            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Resignation+of+Mrs.+Sarita+Zamwar_Company+Secretary.pdf",
+          },
+          {
+            label:
+              "SEIL_Appointment of Internal Auditor, Statutory Auditor and Company Secretary",
+            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Appointment+of+Internal+Auditor%2C+Statutory+Auditor+and+Company+Secretary.pdf",
           },
         ],
         "2019-20": [
@@ -681,6 +684,10 @@ export const investorData = {
             label: "SEIL_MOA and AOA",
             url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Disclosures/SEIL_MOA_and_AOA.pdf",
           },
+           {
+            label: "SEIL_Investor_Presentation_17.12.2019",
+            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Investor_Presentation_17.12.2019.pdf",
+          },
         ],
         "2020-21": [
           {
@@ -696,6 +703,11 @@ export const investorData = {
             label: "Secretarial Audit Report_2020-21",
             url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Disclosures/Secretarial+Audit+Report_+2020-21.pdf",
           },
+          {
+            label:
+              "SEIL_Resignation of Mr. Subhash Patil_Indepedent Director_27.10.2020",
+            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Resignation+of+Mr.+Subhash+Patil_Indepedent+Director_27.10.2020.pdf",
+          },
         ],
         "2021-22": [
           {
@@ -706,11 +718,27 @@ export const investorData = {
             label: "SEIL Disclosure SEBI (SAST) Regulations.31.03.2021",
             url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Disclosures/SEIL_Dislosure_SEBI+(SAST)+Regulations.31.03.2021.pdf",
           },
+          {
+            label: "SEIL_Renewal_Bank Loan Credit Rating.26.03.2021",
+            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Renewal_Bank+Loan+Credit+Rating.26.03.2021.pdf",
+          },
+          {
+            label: "SEIL_Closure of Trading Window_13.08.2021",
+            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Closure+of+Trading+Window_13.08.2021.pdf",
+          },
+          {
+            label: "SEIL_Record Date_Interim Dividend_24.08.2021",
+            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Record+Date_Interim+Dividend_24.08.2021.pdf",
+          },
         ],
         "2022-23": [
           {
             label: "Secretarial Audit Report_ 2022-23",
             url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Disclosures/Secretarial_Audit_Report_+2022-23.pdf",
+          },
+          {
+            label: "SEIL_Renewal_Bank Loan Credit Rating.29.12.2022",
+            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Renewal_Bank+Loan+Credit+Rating.29.12.2022.pdf",
           },
         ],
         "2023-24": [
@@ -738,6 +766,80 @@ export const investorData = {
           {
             label: "SEIL_Press Release_25.01.2024",
             url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Disclosures/SEIL_Press_Release_25.01.2024.pdf",
+          },
+          {
+            label:
+              "SEIL_Intimation for appreciation received from ABB India Ltd.",
+            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Intimation+for+appreciation+received+from+ABB+India+Ltd..pdf",
+          },
+          {
+            label: "SEIL_Intimation for Execution of Agreement",
+            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Intimation+for+Execution+of+Agreement.pdf",
+          },
+          {
+            label: "SEIL_MOU_With_Maharashtra_Govt.",
+            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_MOU_With_Maharashtra_Govt..pdf",
+          },
+          {
+            label: "SEIL_Wholly_Owned_Subsidiary_Investor_Presentation",
+            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Wholly_Owned_Subsidiary_Investor_Presentation.pdf",
+          },
+          {
+            label: "SEIL_Subsidiary_Investor_Presentation",
+            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Subsidiary_Investor_Presentation.pdf",
+          },
+          {
+            label: "SEIL_MOU Execution_Intimation",
+            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_MOU+Execution_Intimation.pdf",
+          },
+          {
+            label: "SEIL_Closure of Trading Window_11.12.2023",
+            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Closure+of+Trading+Window_11.12.2023.pdf",
+          },
+          {
+            label: "SEIL_Appointment of Internal Auditor",
+            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Appointment+of+Internal+Auditor.pdf",
+          },
+          {
+            label: "SEIL_Record Date_Interim Dividend_15.05.2023",
+            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Record+Date_Interim+Dividend_15.05.2023.pdf",
+          },
+          {
+            label: "SEIL_Press_Release_EV_Charger.11.07.2023",
+            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Press_Release_EV_Charger.11.07.2023.pdf",
+          },
+          {
+            label: "SEIL_Outcome_of_Investor_Plant_Visit_07.07.2023",
+            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Outcome_of_Investor_Plant_Visit_07.07.2023.pdf",
+          },
+          {
+            label: "SEIL_Outcome_Investor_Plant_Visit_18.06.2023",
+            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Outcome_Investor_Plant_Visit_18.06.2023.pdf",
+          },
+          {
+            label: "SEIL_Intimation_Sad_Demise_of_Director.17.04.2023",
+            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Intimation_Sad_Demise_of_Director.17.04.2023.pdf",
+          },
+          {
+            label: "SEIL_Intimation_Bagged New Purchase Order_15.06.2023",
+            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Intimation_Bagged+New+Purchase+Order_15.06.2023.pdf",
+          },
+          {
+            label:
+              "SEIL_Intimation_Change in Registered Office of the Company.15.05.2023",
+            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Intimation_Change+in+Registered+Office+of+the+Company.15.05.2023.pdf",
+          },
+          {
+            label: "SEIL_Intimation of Investor Meet on 17.06.2023",
+            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Intimation+of+Investor+Meet+on+17.06.2023.pdf",
+          },
+          {
+            label: "SEIL_Intimation of Investor Meet on 05.07.2023",
+            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Intimation+of+Investor+Meet+on+05.07.2023.pdf",
+          },
+          {
+            label: "SEIL_Change_In_Directors_01.07.2023",
+            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Change_In_Directors_01.07.2023.pdf",
           },
         ],
         "2024-25": [
@@ -770,10 +872,6 @@ export const investorData = {
             url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Disclosures/SEIL_Press+Release_25.01.2024.pdf",
           },
           {
-            label: "SPECTRUM SACR 2024",
-            url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Disclosures/SPECTRUM_SACR_2024.pdf",
-          },
-          {
             label: "Composition of Board Committees",
             url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Disclosures/Composition_of_Board_Committees.pdf",
           },
@@ -802,12 +900,78 @@ export const investorData = {
             label: "Integrated Governance Report_31032025",
             url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Disclosures/Integrated+Governance+Report_31032025.pdf",
           },
+          {
+            label:
+              "SEIL_Intimation For Appointment of Mr. Vikash Mittal as CMO",
+            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Intimation+For+Appointment+of+Mr.+Vikash+Mittal+as+CMO.pdf",
+          },
+          {
+            label:
+              "Intimation for taking Majority Stake in Mechmaster Eng. Pvt. Ltd.",
+            url: "https://practice12345678.s3.us-east-1.amazonaws.com/all+investor+relation+24-25/event+based+disclosure+24-25+6.pdf",
+          },
+          {
+            label: "MOU_Pristine IT & Workflowed Solutions",
+            url: "https://practice12345678.s3.us-east-1.amazonaws.com/all+investor+relation+24-25/event+based+disclosure+24-25+5.pdf",
+          },
+          {
+            label: "SPECTRUM_Intimation Under Regulation 30 for Investor Meet",
+            url: "https://practice12345678.s3.us-east-1.amazonaws.com/all+investor+relation+24-25/event+based+disclosure+24-25+1.pdf",
+          },
+          {
+            label: "SPECTRUM_INVESTOR_PRESENTATION_02.12.2024",
+            url: "https://practice12345678.s3.us-east-1.amazonaws.com/all+investor+relation+24-25/event+based+disclosure+24-25+2.pdf",
+          },
+          {
+            label: "SPECTRUM_Intimation Under Regulation 30 for Investor Meet",
+            url: "https://practice12345678.s3.us-east-1.amazonaws.com/all+investor+relation+24-25/event+based+disclosure+24-25+3.pdf",
+          },
+          {
+            label: "Intimation Investor Meet 24012025",
+            url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Event+Based+Disclosures/Intimation_Investor_Meet_24012025.pdf",
+          },
+          {
+            label: "SPECTRUM_reappointment_of_Statutory_Auditor",
+            url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Event+Based+Disclosures/SPECTRUM_reappointment_of_Statutory_Auditor.pdf",
+          },
+          {
+            label: "Outcome_of_Investors_Meet_03.12.2024",
+            url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Event+Based+Disclosures/Outcome_of_Investors_Meet_03.12.2024.pdf",
+          },
+          {
+            label: "Intimation_Investors Meet_08.01.2025",
+            url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Event+Based+Disclosures/Intimation_Investors+Meet_08.01.2025.pdf",
+          },
+          {
+            label: "Outcome of Investors Meet on 08.01.2025",
+            url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Event+Based+Disclosures/Outcome+of+Investors+Meet+on+08.01.2025.pdf",
+          },
+          {
+            label: "Outcome_Investors_Meet_24012025",
+            url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Event+Based+Disclosures/Outcome_Investors_Meet_24012025.pdf",
+          },
         ],
         "2025-26": [
           {
             label:
               "SPECTRUM_News_Paper_Publication - Financial Results 31032025",
             url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Disclosures/SPECTRUM_News_Paper_Publication+-+Financial+Results+31032025+-+Disclosure.pdf",
+          },
+          {
+            label: "Investors Meet 08.01.2025",
+            url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Event+Based+Disclosures/Intimation_Investors+Meet_08.01.2025.pdf",
+          },
+          {
+            label: "Outcome of Investors Meet on 08.01.2025",
+            url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Event+Based+Disclosures/Outcome+of+Investors+Meet+on+08.01.2025.pdf",
+          },
+          {
+            label: "Outcome Investors Meet 24012025",
+            url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Event+Based+Disclosures/Outcome_Investors_Meet_24012025.pdf",
+          },
+          {
+            label: "SPECTRUM reappointment of Statutory Auditor",
+            url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Event+Based+Disclosures/SPECTRUM_reappointment_of_Statutory_Auditor.pdf",
           },
         ],
       },
@@ -1014,205 +1178,31 @@ export const investorData = {
           }
         ],
       },
-      "Event Based Disclosures": {
+    },
+    "Financial Results": {
+      "Financial Results": {
         "2018-19": [
-          {
-            label: "SEIL_Prospectus",
-            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Prospectus.pdf",
-          },
-          {
-            label:
-              "SEIL_Resignation of MS. SD Chopde and Co. Statutory Auditor",
-            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Resignation+of+MS.+SD+Chopde+and+Co.+Statutory+Auditor.pdf",
-          },
-          {
-            label: "SEIL_Resignation of Mrs. Sarita Zamwar_Company Secretary",
-            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Resignation+of+Mrs.+Sarita+Zamwar_Company+Secretary.pdf",
-          },
-          {
-            label:
-              "SEIL_Appointment of Internal Auditor, Statutory Auditor and Company Secretary",
-            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Appointment+of+Internal+Auditor%2C+Statutory+Auditor+and+Company+Secretary.pdf",
-          },
+          { label: "SEIL_Audited Financial Results_31.03.2019", url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/FinancialResults/SEIL_Audited+Financial+Results_31.03.2019.pdf" },
         ],
         "2019-20": [
-          {
-            label: "SEIL_Investor_Presentation_17.12.2019",
-            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Investor_Presentation_17.12.2019.pdf",
-          },
+          { label: "SEIL_Audited Financial Results_31.03.2020", url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/FinancialResults/SEIL_Audited+Financial+Results_31.03.2020.pdf" },
+          { label: "SEIL_Unaudited Financial Results_30.09.2019", url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/FinancialResults/SEIL_Unaudited+Financial+Results_30.09.2019.pdf" },
         ],
         "2020-21": [
-          {
-            label:
-              "SEIL_Resignation of Mr. Subhash Patil_Indepedent Director_27.10.2020",
-            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Resignation+of+Mr.+Subhash+Patil_Indepedent+Director_27.10.2020.pdf",
-          },
+          { label: "SEIL_Unaudited Financial Results_ 30.09.2020", url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/FinancialResults/SEIL_Unaudited+Financial+Results_+30.09.2020.pdf" },
+          { label: "SEIL_Audited Financial Results_31.03.2021", url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/FinancialResults/SEIL_Audited+Financial+Results_31.03.2021.pdf" },
         ],
         "2021-22": [
-          {
-            label: "SEIL_Renewal_Bank Loan Credit Rating.26.03.2021",
-            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Renewal_Bank+Loan+Credit+Rating.26.03.2021.pdf",
-          },
-          {
-            label: "SEIL_Closure of Trading Window_13.08.2021",
-            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Closure+of+Trading+Window_13.08.2021.pdf",
-          },
-          {
-            label: "SEIL_Record Date_Interim Dividend_24.08.2021",
-            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Record+Date_Interim+Dividend_24.08.2021.pdf",
-          },
+          { label: "SEIL_Audited Financial Results_31.03.2022", url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/FinancialResults/SEIL_Audited+Financial+Results_31.03.2022.pdf" },
+          { label: "SEIL_Unaudited Financial Results_30.09.2021", url: "" },
         ],
         "2022-23": [
-          {
-            label: "SEIL_Renewal_Bank Loan Credit Rating.29.12.2022",
-            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Renewal_Bank+Loan+Credit+Rating.29.12.2022.pdf",
-          },
-        ],
-        "2023-24": [
-          {
-            label:
-              "SEIL_Intimation for appreciation received from ABB India Ltd.",
-            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Intimation+for+appreciation+received+from+ABB+India+Ltd..pdf",
-          },
-          {
-            label: "SEIL_Intimation for Execution of Agreement",
-            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Intimation+for+Execution+of+Agreement.pdf",
-          },
-          {
-            label: "SEIL_MOU_With_Maharashtra_Govt.",
-            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_MOU_With_Maharashtra_Govt..pdf",
-          },
-          {
-            label: "SEIL_Wholly_Owned_Subsidiary_Investor_Presentation",
-            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Wholly_Owned_Subsidiary_Investor_Presentation.pdf",
-          },
-          {
-            label: "SEIL_Subsidiary_Investor_Presentation",
-            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Subsidiary_Investor_Presentation.pdf",
-          },
-          {
-            label: "SEIL_MOU Execution_Intimation",
-            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_MOU+Execution_Intimation.pdf",
-          },
-          {
-            label: "SEIL_Closure of Trading Window_11.12.2023",
-            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Closure+of+Trading+Window_11.12.2023.pdf",
-          },
-          {
-            label: "SEIL_Appointment of Internal Auditor",
-            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Appointment+of+Internal+Auditor.pdf",
-          },
-          {
-            label: "SEIL_Record Date_Interim Dividend_15.05.2023",
-            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Record+Date_Interim+Dividend_15.05.2023.pdf",
-          },
-          {
-            label: "SEIL_Press_Release_EV_Charger.11.07.2023",
-            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Press_Release_EV_Charger.11.07.2023.pdf",
-          },
-          {
-            label: "SEIL_Outcome_of_Investor_Plant_Visit_07.07.2023",
-            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Outcome_of_Investor_Plant_Visit_07.07.2023.pdf",
-          },
-          {
-            label: "SEIL_Outcome_Investor_Plant_Visit_18.06.2023",
-            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Outcome_Investor_Plant_Visit_18.06.2023.pdf",
-          },
-          {
-            label: "SEIL_Intimation_Sad_Demise_of_Director.17.04.2023",
-            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Intimation_Sad_Demise_of_Director.17.04.2023.pdf",
-          },
-          {
-            label: "SEIL_Intimation_Bagged New Purchase Order_15.06.2023",
-            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Intimation_Bagged+New+Purchase+Order_15.06.2023.pdf",
-          },
-          {
-            label:
-              "SEIL_Intimation_Change in Registered Office of the Company.15.05.2023",
-            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Intimation_Change+in+Registered+Office+of+the+Company.15.05.2023.pdf",
-          },
-          {
-            label: "SEIL_Intimation of Investor Meet on 17.06.2023",
-            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Intimation+of+Investor+Meet+on+17.06.2023.pdf",
-          },
-          {
-            label: "SEIL_Intimation of Investor Meet on 05.07.2023",
-            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Intimation+of+Investor+Meet+on+05.07.2023.pdf",
-          },
-          {
-            label: "SEIL_Change_In_Directors_01.07.2023",
-            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Change_In_Directors_01.07.2023.pdf",
-          },
+          { label: "SEIL_Audited Financial Results_31.03.2023", url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/FinancialResults/SEIL_Audited+Financial+Results_31.03.2023.pdf" },
+          { label: "SEIL_Unaudited Financial Results_30.09.2022", url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/FinancialResults/SEIL_Unaudited+Financial+Results_30.09.2022.pdf" },
         ],
         "2024-25": [
-          {
-            label:
-              "SEIL_Intimation For Appointment of Mr. Vikash Mittal as CMO",
-            url: "https://practice12345678.s3.amazonaws.com/investorPDFs/Event+based+disclosures/SEIL_Intimation+For+Appointment+of+Mr.+Vikash+Mittal+as+CMO.pdf",
-          },
-          {
-            label:
-              "Intimation for taking Majority Stake in Mechmaster Eng. Pvt. Ltd.",
-            url: "https://practice12345678.s3.us-east-1.amazonaws.com/all+investor+relation+24-25/event+based+disclosure+24-25+6.pdf",
-          },
-          {
-            label: "MOU_Pristine IT & Workflowed Solutions",
-            url: "https://practice12345678.s3.us-east-1.amazonaws.com/all+investor+relation+24-25/event+based+disclosure+24-25+5.pdf",
-          },
-          {
-            label: "SPECTRUM_Intimation Under Regulation 30 for Investor Meet",
-            url: "https://practice12345678.s3.us-east-1.amazonaws.com/all+investor+relation+24-25/event+based+disclosure+24-25+1.pdf",
-          },
-          {
-            label: "SPECTRUM_INVESTOR_PRESENTATION_02.12.2024",
-            url: "https://practice12345678.s3.us-east-1.amazonaws.com/all+investor+relation+24-25/event+based+disclosure+24-25+2.pdf",
-          },
-          {
-            label: "SPECTRUM_Intimation Under Regulation 30 for Investor Meet",
-            url: "https://practice12345678.s3.us-east-1.amazonaws.com/all+investor+relation+24-25/event+based+disclosure+24-25+3.pdf",
-          },
-          {
-            label: "Intimation Investor Meet 24012025",
-            url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Event+Based+Disclosures/Intimation_Investor_Meet_24012025.pdf",
-          },
-          {
-            label: "SPECTRUM_reappointment_of_Statutory_Auditor",
-            url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Event+Based+Disclosures/SPECTRUM_reappointment_of_Statutory_Auditor.pdf",
-          },
-          {
-            label: "Outcome_of_Investors_Meet_03.12.2024",
-            url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Event+Based+Disclosures/Outcome_of_Investors_Meet_03.12.2024.pdf",
-          },
-          {
-            label: "Intimation_Investors Meet_08.01.2025",
-            url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Event+Based+Disclosures/Intimation_Investors+Meet_08.01.2025.pdf",
-          },
-          {
-            label: "Outcome of Investors Meet on 08.01.2025",
-            url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Event+Based+Disclosures/Outcome+of+Investors+Meet+on+08.01.2025.pdf",
-          },
-          {
-            label: "Outcome_Investors_Meet_24012025",
-            url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Event+Based+Disclosures/Outcome_Investors_Meet_24012025.pdf",
-          },
-        ],
-        "2025-26": [
-          {
-            label: "Investors Meet 08.01.2025",
-            url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Event+Based+Disclosures/Intimation_Investors+Meet_08.01.2025.pdf",
-          },
-          {
-            label: "Outcome of Investors Meet on 08.01.2025",
-            url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Event+Based+Disclosures/Outcome+of+Investors+Meet+on+08.01.2025.pdf",
-          },
-          {
-            label: "Outcome Investors Meet 24012025",
-            url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Event+Based+Disclosures/Outcome_Investors_Meet_24012025.pdf",
-          },
-          {
-            label: "SPECTRUM reappointment of Statutory Auditor",
-            url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Event+Based+Disclosures/SPECTRUM_reappointment_of_Statutory_Auditor.pdf",
-          },
+          { label: "SPECTRUM_Financial Results_31032025", url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/FinancialResults/SPECTRUM_Financial+Results_31032025.pdf" },
+          { label: "SPECTRUM_Unaudited_Financial_Results_30092024", url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/FinancialResults/SPECTRUM_Unaudited_Financial_Results_30092024.pdf" },
         ],
       },
     },
@@ -1318,6 +1308,9 @@ export const investorData = {
         url: "https://practice12345678.s3.amazonaws.com/investorPDFs/QIP/Merchant_Banker_Due_Diligence_Certificate.pdf",
       },
     ],
+      "Composition of Committies": [
+        { label: "Composition of Board Committees", url: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum+Electrical+Website+/Investor+Relations/Composition+of+committies/Composition+of+Board+Committees.pdf" },
+      ],
   },
 };
 
@@ -1333,70 +1326,3 @@ export const investorData = {
 //             { label: "", url: ""},
 //             { label: "", url: ""},
 //             { label: "", url: ""}],
-
-// { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},
-//                     { label: "", url: ""},

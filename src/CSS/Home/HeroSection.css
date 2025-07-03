@@ -1,20 +1,26 @@
 .hero-container {
-  background: linear-gradient(to bottom, #f90404, white, white);
-  color: black;
+  background-image: url("src/assets/spectrum-top-view.png");
+  background-size: contain;
+  background-color: grey;
+  color: white;
   text-align: left;
 }
 
 .overlay {
-  background: #f4f4f4;  
+  background: rgba(0, 0, 0, 0.36);
   padding: 40px;
+  height: 350px;
+  align-items: end;
+  align-content: center;
   border-bottom: 2px solid #eee;
 }
 
 .hero-title {
-  font-size: 28px;
+  font-size: 26px;
   font-family: 'Noto', sans-serif;
   width: 50%;
   line-height: 1.5;
+    -webkit-text-stroke: 0.4px black;
 }
 
 .hero-subtitle {

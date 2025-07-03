@@ -54,10 +54,11 @@ const IRSidebarLayout = () => {
       <main className="content">
         <div className="title-bar">
           <p className="sub-title">
-            {activeCategory} - {activeSubcategory}
+            {/* {activeCategory} - {activeSubcategory} */}
+            {activeSubcategory}
           </p>
           <div>
-            <label>Select Year:</label>
+            <label>Select Year: </label>
             <select
               value={selectedYear}
               onChange={(e) => setSelectedYear(e.target.value)}
