@@ -7,7 +7,7 @@
 }
 
 .overlay {
-  background: rgba(0, 0, 0, 0.36);
+  background: rgba(0, 0, 0, 0.46);
   padding: 40px;
   height: 350px;
   align-items: end;
@@ -20,7 +20,7 @@
   font-family: 'Noto', sans-serif;
   width: 50%;
   line-height: 1.5;
-    -webkit-text-stroke: 0.4px black;
+  /* -webkit-text-stroke: 0.4px black; */
 }
 
 .hero-subtitle {

@@ -54,7 +54,7 @@ const SustainabilityPage = () => {
             <NewsCard key={news.id} news={news} onClick={handleCardClick} />
           ))
         ) : (
-          <p>No news found.</p>
+          <p>No Sustainability events found.</p>
         )}
       </div>
     </div>

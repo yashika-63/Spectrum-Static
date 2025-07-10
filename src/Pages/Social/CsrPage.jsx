@@ -54,7 +54,7 @@ const CsrPage = () => {
             <NewsCard key={news.id} news={news} onClick={handleCardClick} />
           ))
         ) : (
-          <p>No news found.</p>
+          <p>No csr events found.</p>
         )}
       </div>
     </div>

@@ -5,7 +5,7 @@ import awardsData from "../../Data/AwardsData";
 const AwardsPage = () => {
   return (
     <div className="awards-page">
-      <h2 className="title">Our Awards</h2>
+      <h2 className="title">Awards & Certifications</h2>
       <div className="awards-grid">
         {awardsData.map((award, index) => (
           <div className="award-card" key={index}>
