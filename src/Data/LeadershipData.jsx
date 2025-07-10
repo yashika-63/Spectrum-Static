@@ -45,7 +45,7 @@ export const leadershipData = [
     email: "sanjay.pawde@spectrum-india.com",
     photo: "",
     // photo: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/SanjayPawde1.png",
-    description: "He has been actively involved in Training, Human Resources, Skill Development, Research and CSR activities. An accomplished author with two books on Computer Programming, Mr. Pawde currently serves as Director at KCE Society’s Dr. APJ Abdul Kalam Skill Development Centre, Jalgaon. His diverse expertise in automation, digitalization and skill development brings invaluable insights to Spectrum, particularly in enhancing the company’s capabilities in these critical areas."
+    description: "Mr. Sanjay has been actively involved in Training, Human Resources, Skill Development, Research and CSR activities. An accomplished author with two books on Computer Programming, Mr. Pawde currently serves as Director at KCE Society’s Dr. APJ Abdul Kalam Skill Development Centre, Jalgaon. His diverse expertise in automation, digitalization and skill development brings invaluable insights to Spectrum, particularly in enhancing the company’s capabilities in these critical areas."
   },
    {
     name: "Mr. Saurabh Malpani",
@@ -69,7 +69,7 @@ export const leadershipData = [
     email: "vaibhav.rane@spectrum-india.com",
     // photo: "",
     photo: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/VaibhavRane.jpg",
-    description: "With a robust background in process optimization, project delivery and stakeholder management, he brings invaluable expertise from the oil and gas sector, where he honed his skills in driving efficiency in complex manufacturing environments. His strategic vision is to bolster Spectrum’s operational excellence by optimizing processes, enhancing customer satisfaction and reinforcing the company’s position as a multi-technology solutions provider."
+    description: "With a robust background in process optimization, project delivery and stakeholder management, Mr. Rane brings invaluable expertise from the oil and gas sector, where he honed his skills in driving efficiency in complex manufacturing environments. His strategic vision is to bolster Spectrum’s operational excellence by optimizing processes, enhancing customer satisfaction and reinforcing the company’s position as a multi-technology solutions provider."
   },
   {
     name: "Mr. Pankaj Rote",
@@ -77,7 +77,7 @@ export const leadershipData = [
     email: "pankaj.rane@spectrum-india.com",
     // photo: "",
     photo: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/PankajRote.png",
-    description: "Pankaj Rote, the Chief Financial Officer, brings over 15 years of expertise in finance, accounting and corporate taxation. With a strong foundation in finance with CA certification, he spearheads complex financial operations, ensuring regulatory compliance and driving business performance. Pankaj is the driving force behind pivotal changes, orchestrating significant transformations in systems, legal contracts, corporate taxation, cost optimization initiatives and rationalizing the business frameworks for ease of operations."
+    description: "Mr. Pankaj Rote, the Chief Financial Officer, brings over 15 years of expertise in finance, accounting and corporate taxation. With a strong foundation in finance with CA certification, he spearheads complex financial operations, ensuring regulatory compliance and driving business performance. Pankaj is the driving force behind pivotal changes, orchestrating significant transformations in systems, legal contracts, corporate taxation, cost optimization initiatives and rationalizing the business frameworks for ease of operations."
   },
    {
     name: "Mr. Vikash Mittal",
@@ -85,7 +85,7 @@ export const leadershipData = [
     email: "vikash.mittal@spectrum-india.com",
     // photo: "",
     photo: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/VikashMittal.jpg",
-    description: "Mr. Vikash Mittal, the Chief Manufacturing Officer, brings 26 years of extensive experience. As Senior Director of Operations at Samsung, he led high-volume manufacturing, complex supply chains, process innovation and large strategic projects in a highly competitive environment. Vikash is driving Spectrum's transformation and overseeing manufacturing operations across all verticals benchmarked to global industry standards taking Spectrum to a new league of global businesses."
+    description: "Mr. Vikash Mittal, the Chief Manufacturing Officer, brings 26 years of extensive experience. As Senior Director of Operations at Samsung, he led high-volume manufacturing, complex supply chains, process innovation and large strategic projects in a highly competitive environment. Mr. Vikash is driving Spectrum's transformation and overseeing manufacturing operations across all verticals benchmarked to global industry standards taking Spectrum to a new league of global businesses."
   },
   {
     name: "Mr. Nitin Aptikar",
@@ -93,7 +93,7 @@ export const leadershipData = [
     email: "nitin.aptikar@spectrum-india.com",
     // photo: "",
     photo: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/NitinAptikar.png",
-    description: "Mr. Nitin Aptikar, our Chief - ODM Officer (Original Design Manufacturer), brings over 30 years of extensive experience in operations, manufacturing technology, Industrial Engineering, Project Management and Supply Chain Management. Nitin has successfully led & executed large-scale transformation projects in organizations such as blue chip MNCs : Siemens and Schneider Electric. Nitin has deep expertise of the new product development, factory design and global project management. His leadership has driven significant improvements in operational efficiencies."
+    description: "Mr. Nitin Aptikar, our Chief - ODM Officer (Original Design Manufacturer), brings over 30 years of extensive experience in operations, manufacturing technology, Industrial Engineering, Project Management and Supply Chain Management. Mr. Nitin has successfully led & executed large-scale transformation projects in organizations such as blue chip MNCs : Siemens and Schneider Electric. Nitin has deep expertise of the new product development, factory design and global project management. His leadership has driven significant improvements in operational efficiencies."
   },
   {
     name: "Mr. Sunil Jangle",
@@ -101,7 +101,7 @@ export const leadershipData = [
     email: "sunil.jangle@pristine-code.com",
     // photo: "",
     photo: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/SunilJangle.png",
-    description: "Mr. Sunil Jangle brings over 35 years of IT industry experience that spans across geographies, industries, technologies and IT services with deep acumen of innovation and digital transformations. At TCS and Accenture, Sunil has led multiple global transformational outsourcing contracts unlocking business value and saving costs for clients. At Pristine, he is establishing offerings of transformational enterprise digital solutions as part of Spectrum's IT Consulting and Outsourcing business expansion."
+    description: "Mr. Sunil Jangle brings over 35 years of IT industry experience that spans across geographies, industries, technologies and IT services with deep acumen of innovation and digital transformations. At TCS and Accenture, Mr. Sunil has led multiple global transformational outsourcing contracts unlocking business value and saving costs for clients. At Pristine, he is establishing offerings of transformational enterprise digital solutions as part of Spectrum's IT Consulting and Outsourcing business expansion."
   },
   {
     name: "Mr. Bhuvnesh Tamse",
@@ -109,7 +109,7 @@ export const leadershipData = [
     email: "bhuvnesh.tamse@spectrum-india.com",
     photo: "",
     // photo: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/BhuvaneshTame.png",
-    description: "Bhuvnesh has been widely recognized for his capabilities in new product development within the LV and HV segments, as well as for driving operational excellence. He is adept at crafting and implementing sourcing strategies, building efficient, compliant procurement systems and digitizing processes to enhance business operations."
+    description: "Mr. Bhuvnesh has been widely recognized for his capabilities in new product development within the LV and HV segments, as well as for driving operational excellence. He is adept at crafting and implementing sourcing strategies, building efficient, compliant procurement systems and digitizing processes to enhance business operations."
   },
   {
     name: "Mr. Sanjiv Bhole",

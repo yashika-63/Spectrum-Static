@@ -91,9 +91,7 @@
 .card-back {
   transform: rotateY(180deg);
   padding: 1rem;
-  justify-content: center;
-  align-items: center;
-  text-align: left;
+  text-align: justify;
   background: #f7f7f7;
 }
 
