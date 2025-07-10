@@ -8,7 +8,7 @@ const tabs = [ "Careers", "Investor Relations", "Client"];
 const tabContent = {
   Careers: {
     heading: "Be part of a team that builds a better world",
-    text: "Spectrum Electrical is where ideas spark, innovation thrives, and careers are built. We design and deliver cutting edge electrical components that powers industries and improve lives. Join us in building a smarter, more connected tomorrow.",
+    text: "Spectrum Electrical is where ideas spark, innovation thrives and careers are built. We design and deliver cutting edge electrical components that powers industries and improve lives. Join us in building a smarter, more connected tomorrow.",
     buttonText: "VIEW OPEN POSITIONS",
     route: "/Careers"
   },

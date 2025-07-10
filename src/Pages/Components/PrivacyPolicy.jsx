@@ -18,10 +18,10 @@ const PrivacyPolicy = () => {
       <p>
         "Data Protection Legislation" in India refers to the Information Technology (Reasonable
         Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011 under
-        the Information Technology Act, 2000, and the Personal Data Protection Bill, 2019 ("PDP Bill").
+        the Information Technology Act, 2000 and the Personal Data Protection Bill, 2019 ("PDP Bill").
         The PDP Bill is designed to provide a comprehensive framework for the protection of personal data
         and to establish a Data Protection Authority. It includes provisions related to the collection,
-        processing, storage, transfer, and protection of personal data.
+        processing, storage, transfer and protection of personal data.
       </p>
       <p>
         The terms "personal data," "data fiduciary," and "data processor" are defined as per the Data
@@ -35,20 +35,20 @@ const PrivacyPolicy = () => {
 
       <h2>3. Information we collect</h2>
       <ul>
-        <li>Personal Identification Information: Name, email address, phone number, and postal address.</li>
+        <li>Personal Identification Information: Name, email address, phone number and postal address.</li>
         <li>Usage Data: to contact you to respond to your queries and analyze how you use our website and services.</li>
         <li>Cookies and Tracking Technologies: To improve your experience and track website usage.</li>
       </ul>
 
       <h2>4. How we use your information</h2>
       <ul>
-        <li>Provide, operate, and maintain our website.</li>
-        <li>Improve, personalize, and expand our website.</li>
+        <li>Provide, operate and maintain our website.</li>
+        <li>Improve, personalize and expand our website.</li>
         <li>Understand and analyze how you use our website.</li>
-        <li>Develop new products, services, features, and functionality.</li>
+        <li>Develop new products, services, features and functionality.</li>
         <li>
           Communicate with you, either directly or through one of our partners, including for customer service,
-          to provide you with updates and other information relating to the website, and for marketing and promotional purposes.
+          to provide you with updates and other information relating to the website and for marketing and promotional purposes.
         </li>
         <li>Process your transactions and manage your orders.</li>
         <li>Comply with legal obligations.</li>
@@ -80,7 +80,7 @@ const PrivacyPolicy = () => {
 
       <h2>8. Data security</h2>
       <p>
-        We use administrative, technical, and physical security measures to protect your personal data. However,
+        We use administrative, technical and physical security measures to protect your personal data. However,
         no method of transmission or storage is 100% secure.
       </p>
 

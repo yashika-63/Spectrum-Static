@@ -12,7 +12,7 @@ const items = [
   },
   {
     label: "RCCB",
-    text: "Spectrum’s Residual Current Circuit Breakers (RCCB), designed for life protection, our RCCBs instantly detect earth leakage faults ensuring safety, reliability, and peace of mind in every installation that safeguards lives and property.",
+    text: "Spectrum’s Residual Current Circuit Breakers (RCCB), designed for life protection, our RCCBs instantly detect earth leakage faults ensuring safety, reliability and peace of mind in every installation that safeguards lives and property.",
   },
   {
     label: "RCBO",
@@ -39,11 +39,11 @@ export default function ProtectionSwitchgear() {
       <p className="core-para">
         We provide a complete range of low voltage switchgear MCBs, Isolators, 
         RCCBs, RCBOs and MCCBs along with high-quality distribution boards to ensure
-        safe, efficient, and reliable electrical systems. Engineered to guard
-        against overloads, short circuits, and other faults, our products meet
+        safe, efficient and reliable electrical systems. Engineered to guard
+        against overloads, short circuits and other faults, our products meet
         stringent quality and compliance standards. Whether for residential,
         commercial, or industrial use, our solutions offer robust protection,
-        seamless power distribution, and long-term performance you can trust.
+        seamless power distribution and long-term performance you can trust.
       </p>
 
       <div className="core-services">

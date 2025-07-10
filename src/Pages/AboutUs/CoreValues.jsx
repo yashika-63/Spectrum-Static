@@ -8,11 +8,11 @@ const items = [
   },
   {
     label: "Mission",
-    text: "To provide world-class solutions that drive excellence, foster long-term partnerships and create value through quality, ethical practices, and commitment to innovation and sustainability.",
+    text: "To provide world-class solutions that drive excellence, foster long-term partnerships and create value through quality, ethical practices and commitment to innovation and sustainability.",
   },
   {
     label: "Goal",
-    text: "To be the trusted partner delivering sustainable, innovative solutions, exceeding expectations, and driving transformative progress.",
+    text: "To be the trusted partner delivering sustainable, innovative solutions, exceeding expectations and driving transformative progress.",
   },
 ];
 
@@ -51,7 +51,7 @@ const coreValues = [
   },
   {
     title: "Sustainability",
-    description: "We uphold sustainability with BRSR, CSR, and ESG principles.",
+    description: "We uphold sustainability with BRSR, CSR and ESG principles.",
   },
 ];
 
@@ -62,7 +62,7 @@ export default function CorePath() {
       <p className="core-para">
         We build a sustainable and innovative future through
         transformative solutions. Guided by our mission and core values, we
-        deliver excellence with integrity, innovation, and a global mindset
+        deliver excellence with integrity, innovation and a global mindset
         empowering lasting partnerships and impactful growth.
       </p>
 

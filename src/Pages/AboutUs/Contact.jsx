@@ -93,7 +93,7 @@ const Contact = () => {
           </div>
           <p>Bigshare Services Private Limited</p>
           <p>Office No. S6-2, 6th Floor, Pinnacle Business Park,</p>
-          <p>Next to Ahura Centre, Andheri (East)</p>
+          <p>Next to Ahura Centre andheri (East)</p>
           <p>Mumbai - 400093, India</p>
           <p>Tel: +91-022-62638200</p>
           <p>Email: info@bigshareonline.com</p>

@@ -5,7 +5,7 @@ export const jobs = [
     location: "Bengaluru",
     department: "Production",
     experience: "3 years",
-    responsibilities: "Design, develop, and improve products based on customer requirements and market trends. Collaborate with cross-functional teams, including design, production, and quality, to ensure product feasibility and manufacturability. Conduct root cause analysis and resolve technical issues in the production process. Develop and execute testing protocols to validate product performance and reliability. Monitor and analyze product performance data to recommend enhancements. Ensure that all product designs comply with industry standards and safety regulations. Work on cost optimization without compromising product quality and functionality.",
+    responsibilities: "Design, develop and improve products based on customer requirements and market trends. Collaborate with cross-functional teams, including design, production and quality, to ensure product feasibility and manufacturability. Conduct root cause analysis and resolve technical issues in the production process. Develop and execute testing protocols to validate product performance and reliability. Monitor and analyze product performance data to recommend enhancements. Ensure that all product designs comply with industry standards and safety regulations. Work on cost optimization without compromising product quality and functionality.",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const jobs = [
     location: "Mumbai",
     department: "HR",
     experience: "3 years",
-    responsibilities: "Manage recruitment processes, including sourcing, screening, and onboarding candidates. Maintain employee records and ensure compliance with labor laws. Conduct employee engagement and training programs. Assist in payroll management and benefits administration. Address employee grievances and foster a positive workplace culture.",
+    responsibilities: "Manage recruitment processes, including sourcing, screening and onboarding candidates. Maintain employee records and ensure compliance with labor laws. Conduct employee engagement and training programs. Assist in payroll management and benefits administration. Address employee grievances and foster a positive workplace culture.",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const jobs = [
     location: "Nashik",
     department: "SCM",
     experience: "3 years",
-    responsibilities: "Design, program, and maintain automated machinery and equipment. Develop PLC programs and troubleshoot automation systems. Collaborate with production teams to enhance automation efficiency. Perform regular maintenance and updates on automation systems. Ensure compliance with safety and industry standards for automation.",
+    responsibilities: "Design, program and maintain automated machinery and equipment. Develop PLC programs and troubleshoot automation systems. Collaborate with production teams to enhance automation efficiency. Perform regular maintenance and updates on automation systems. Ensure compliance with safety and industry standards for automation.",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const jobs = [
     location: "Jalgaon",
     department: "PCD",
     experience: "3 years",
-    responsibilities: "Oversee the electroplating process to ensure quality standards. Conduct chemical analyses and maintain solutions as per required specifications. Monitor and control plating baths, additives, and pH levels. Develop and implement process improvements to enhance efficiency and quality. Adhere to environmental and safety regulations in handling chemicals.",
+    responsibilities: "Oversee the electroplating process to ensure quality standards. Conduct chemical analyses and maintain solutions as per required specifications. Monitor and control plating baths, additives and pH levels. Develop and implement process improvements to enhance efficiency and quality. Adhere to environmental and safety regulations in handling chemicals.",
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ export const jobs = [
     location: "Jalgaon",
     department: "SCM",
     experience: "3 years",
-    responsibilities: "Design, program, and maintain automated machinery and equipment. Develop PLC programs and troubleshoot automation systems. Collaborate with production teams to enhance automation efficiency. Perform regular maintenance and updates on automation systems. Ensure compliance with safety and industry standards for automation.",
+    responsibilities: "Design, program and maintain automated machinery and equipment. Develop PLC programs and troubleshoot automation systems. Collaborate with production teams to enhance automation efficiency. Perform regular maintenance and updates on automation systems. Ensure compliance with safety and industry standards for automation.",
   },
   {
     id: 6,
@@ -53,7 +53,7 @@ export const jobs = [
     location: "Jalgaon",
     department: "HR",
     experience: "3 years",
-    responsibilities: "Manage recruitment processes, including sourcing, screening, and onboarding candidates. Maintain employee records and ensure compliance with labor laws. Conduct employee engagement and training programs. Assist in payroll management and benefits administration. Address employee grievances and foster a positive workplace culture.",
+    responsibilities: "Manage recruitment processes, including sourcing, screening and onboarding candidates. Maintain employee records and ensure compliance with labor laws. Conduct employee engagement and training programs. Assist in payroll management and benefits administration. Address employee grievances and foster a positive workplace culture.",
   },
   {
     id: 8,
@@ -77,6 +77,6 @@ export const jobs = [
     location: "Jalgoan",
     department: "Maintenance",
     experience: "3 years",
-    responsibilities: "Bachelor's degree or diploma in Mechanical/Electrical Engineering. 2-5 years of experience in machine maintenance. Strong understanding of hydraulics, pneumatics, and electrical systems. Problem-solving and organizational skills. Knowledge of safety and maintenance best practices.",
+    responsibilities: "Bachelor's degree or diploma in Mechanical/Electrical Engineering. 2-5 years of experience in machine maintenance. Strong understanding of hydraulics, pneumatics and electrical systems. Problem-solving and organizational skills. Knowledge of safety and maintenance best practices.",
   },
 ];
