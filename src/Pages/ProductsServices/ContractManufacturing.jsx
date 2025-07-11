@@ -1,10 +1,11 @@
 import React from "react";
 import "../../CSS/AboutUs/CorePath.css";
+import { useNavigate } from "react-router-dom";
 
 const items = [
   {
     label: "Surface Treatment",
-    text: "Spectrum offers expert Zinc, Nickel, Alkaline Zinc, Electroless Nickle, Gold, Silver, Silver Graphite, Silver Diamond and Tin plating solutions, delivering superior corrosion resistance and durability for a wide range of components. Our Silver, Silver Graphite and Gold plating services ensure exceptional conductivity and performance for high-precision industrial applications. As trusted manufacturing partner, Spectrum combines advanced surface finishing technology with strict quality control to meet exact specifications, every time.",
+    text: "Spectrum offers expert Zinc, Nickel, Alkaline Zinc, Electroless Nickle, Gold, Silver, Silver Graphite, Silver Diamond and Tin plating solutions, delivering superior corrosion resistance and durability for a wide range of components. Our Silver, Silver Graphite and Gold plating services deliver outstanding conductivity and reliable performance for high-precision industrial applications. As trusted manufacturing partner, Spectrum combines advanced surface finishing technology with strict quality control to meet exact specifications, every time.",
   },
   {
     label: "Metal Enclosures",
@@ -31,7 +32,7 @@ const items = [
   //   text: "We design and manufacture top-quality plastic components specifically for the automotive industry dashboards, bumpers, light housings and more. With precision injection moulding, we create parts that deliver exceptional durability and sleek design, ensuring they meet even the toughest industry standards. Our components are engineered to handle the demands of modern vehicles, providing reliable strength with modern style and advanced functionality.",
   // },
   {
-    label: "Modern Tool Room",
+    label: "Press Tools and Plastic Moulds Manufacturing",
     text: "From precision moulds for plastic injection parts to advanced press tools and custom jigs and fixtures, we engineer tooling solutions that drive accuracy, consistency and productivity across automotive, electrical and consumer industries. Crafted for flawless performance built to meet the highest standards.",
   },
   {
@@ -41,16 +42,21 @@ const items = [
 ];
 
 export default function ContractManufacturing() {
+    const navigate = useNavigate();
+
   return (
     <div className="core-path">
+      <button onClick={() => navigate('/')} className="read-more" style={{ marginTop: "20px", marginLeft: "50px" }}>
+        ← Back
+      </button>
       <h1 className="title">Manufacturing Services</h1>
-      <p className="core-para">
+      {/* <p className="core-para">
         Spectrum offers end-to-end manufacturing services including
         metal fabrication, precision moulding, surface treatment and electro mechanical
         assemblies. With expertise in advanced tooling, automation and
         component manufacturing, we deliver high-quality, customized solutions
         across industries.
-      </p>
+      </p> */}
 
       <div className="core-services">
         {items.map((item, index) => (

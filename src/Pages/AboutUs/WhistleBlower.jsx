@@ -42,6 +42,7 @@ const WhistleBlower = () => {
         <form className="wb-form" ref={formRef} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder="Your Name" />
           <input type="email" name="email" placeholder="Your Email" />
+          <input type="tel" name="phone" placeholder="Your Contact Number" pattern="[0-9]{10}" maxlength="10" />
           <label className="wb-label">Date of Incident: </label>
           <input type="date" name="date" required max={new Date().toISOString().split("T")[0]}/>
           <select name="status" required>
@@ -67,11 +68,12 @@ const WhistleBlower = () => {
             <option value="Harassment">Harassment</option>
             <option value="Discrimination">Discrimination</option>
             <option value="Safety">Safety</option>
+            <option value="Safety">Other</option>
           </select>
           <textarea
             name="message"
             rows="5"
-            placeholder="Describe your concern..."
+            placeholder="Describe your concern"
             required
           />
           <div className="modal-buttons">

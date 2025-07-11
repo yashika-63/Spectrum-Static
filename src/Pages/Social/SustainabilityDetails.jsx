@@ -20,7 +20,7 @@ const SustainDetails = () => {
       </button>
 
       <h2 className="title">{sustains.title}</h2>
-      <div className="news-date" style={{ textAlign: "right" }}>{sustains.date}</div>
+      {/* <div className="news-date" style={{ textAlign: "right" }}>{sustains.date}</div> */}
 
       <div className="divider">
         <div className="line" />

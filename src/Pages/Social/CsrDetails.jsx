@@ -20,7 +20,7 @@ const CsrDetails = () => {
       </button>
 
       <h2 className="title">{csrs.title}</h2>
-      <div className="news-date" style={{ textAlign: "right" }}>{csrs.date}</div>
+      {/* <div className="news-date" style={{ textAlign: "right" }}>{csrs.date}</div> */}
 
       <div className="divider">
         <div className="line" />

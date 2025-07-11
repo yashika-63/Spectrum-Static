@@ -30,6 +30,7 @@ const menuData = {
     "Electrical Power Panels": [
       { label: "Electrical Power Panels", link: "/ElectricalPowerPanels" },
     ],
+    "Metal Enclosures": [{ label: "Metal Enclosures", link: "/ContractManufacturing" }],
     "EV Chargers": [{ label: "EV Chargers", link: "/EVChargers" }],
     "Manufacturing Services": [
       { label: "Surface Treatment", link: "/ContractManufacturing" },
@@ -41,10 +42,13 @@ const menuData = {
         link: "/ContractManufacturing",
       },
       // { label: "Automotive Components", link: "/ContractManufacturing" },
-      { label: "Modern Tool Room", link: "/ContractManufacturing" },
+      {
+        label: "Press Tools and Plastic Moulds Manufacturing",
+        link: "/ContractManufacturing",
+      },
       {
         label: "Electromechanical Assemblies",
-        link: "/products/contract/assembly",
+        link: "/ContractManufacturing",
       },
     ],
   },
@@ -78,7 +82,7 @@ const menuData = {
     Policies: [{ label: "All policies", link: "/InvestorRelations" }],
   },
   social: {
-    Insights: [
+    "Responsible Business": [
       { label: "CSR", link: "/CSR" },
       { label: "Events", link: "/Events" },
       { label: "Sustainability", link: "/Sustainability" },
@@ -92,7 +96,7 @@ const menuData = {
       // { label: "History", link: "/History" },
     ],
     News: [{ label: "Latest News", link: "/News" }],
-    Carrers: [{ label: "Apply Now", link: "/Careers" }],
+    Careers: [{ label: "Apply Now", link: "/Careers" }],
     "Contact Us": [{ label: "Contact Us", link: "/ContactUs" }],
     "Whistle Blower": [{ label: "Report a Concern", link: "/WhistleBlower" }],
   },
@@ -159,6 +163,18 @@ export default function Navbar() {
       </div>
 
       <ul className={`navbar-links ${isMobileMenuOpen ? "open" : ""}`}>
+        <li className="home-link">
+          <Link
+            to="/"
+            className={`menu-tab ${location.pathname === "/" ? "active" : ""}`}
+            onClick={() => {
+              setIsMobileMenuOpen(false);
+              setActiveMobileTab(null);
+            }}
+          >
+            HOME
+          </Link>
+        </li>
         {isMobileMenuOpen ? (
           <div className="mobile-menu-wrapper">
             {Object.keys(menuData).map((tabKey) => (
@@ -257,6 +273,21 @@ export default function Navbar() {
             </li>
           ))
         )}
+
+        <li className="home-link">
+          <Link
+            to="/WhistleBlower"
+            className={`menu-tab ${
+              location.pathname === "/WhistleBlower" ? "active" : ""
+            }`}
+            onClick={() => {
+              setIsMobileMenuOpen(false);
+              setActiveMobileTab(null);
+            }}
+          >
+            WHISTLE BLOWER
+          </Link>
+        </li>
       </ul>
     </nav>
   );

@@ -43,7 +43,7 @@ export const productData = [
       "Metal Stamping",
       "Precision Injection Moulding",
       "Irrigation Products Fabrication",
-      "Modern Tool Room",
+      "Press Tools and Plastic Moulds Manufacturing",
       "Electromechanical Assemblies",
     ],
   },

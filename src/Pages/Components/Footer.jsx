@@ -9,11 +9,11 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-top">
         <div className="footer-brand">
-          <img
+          {/* <img
             src="https://javajar1234.s3.ap-south-1.amazonaws.com/Pristine+IT+Website/Home/client+list/spectrum.png"
             alt="Spectrum Logo"
             className="footer-logo"
-          />
+          /> */}
           <p className="tag-line">We Propel Your Growth</p>
           {/* <p className="sub-text">
             Spectrum deliver success when we undertake responsibility from
@@ -70,13 +70,13 @@ const Footer = () => {
               </a>
             </ul>
             <div className="social-icons">
-              <a
+              {/* <a
                 href="https://www.facebook.com/spectrumelectrical"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaFacebookF />
-              </a>
+              </a> */}
               <a
                 href="https://www.linkedin.com/company/spectrum-electrical-industries-limited/"
                 target="_blank"
@@ -84,13 +84,13 @@ const Footer = () => {
               >
                 <FaLinkedinIn />
               </a>
-              <a
+              {/* <a
                 href="https://x.com/SpectrumEIL"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaXTwitter />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

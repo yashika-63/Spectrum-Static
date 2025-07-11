@@ -1,5 +1,6 @@
 import React from "react";
 import "../../CSS/AboutUs/CorePath.css";
+import { useNavigate } from "react-router-dom";
 
 const items = [
   {
@@ -28,15 +29,20 @@ const items = [
   },
   {
     label: "MCCB",
-    text: "Comming Soon..."
+    text: "Under development."
   },
 ];
 
 export default function ProtectionSwitchgear() {
-  return (
+    const navigate = useNavigate();
+
+    return (
     <div className="core-path">
+      <button onClick={() => navigate('/')} className="read-more" style={{ marginTop: "20px", marginLeft: "50px" }}>
+        ← Back
+      </button>
       <h1 className="title">Low Voltage Switchgear</h1>
-      <p className="core-para">
+      {/* <p className="core-para">
         We provide a complete range of low voltage switchgear MCBs, Isolators, 
         RCCBs, RCBOs and MCCBs along with high-quality distribution boards to ensure
         safe, efficient and reliable electrical systems. Engineered to guard
@@ -44,7 +50,7 @@ export default function ProtectionSwitchgear() {
         stringent quality and compliance standards. Whether for residential,
         commercial, or industrial use, our solutions offer robust protection,
         seamless power distribution and long-term performance you can trust.
-      </p>
+      </p> */}
 
       <div className="core-services">
         {items.map((item, index) => (

@@ -1,22 +1,28 @@
 import React from "react";
 import "../../CSS/AboutUs/CorePath.css";
+import { useNavigate } from "react-router-dom";
 
 const items = [
   {
     label: "MRI Machine",
-    text: "Healthcare should be accessible, affordable and focused on the people it serves. That’s why we craft MRI machines that redefine precision, comfort and reliability. Our advanced MRI systems are designed to deliver crystal-clear images, enabling healthcare professionals to diagnose and confidently provide timely and accurate care. Either you’re managing a bustling hospital, a specialized diagnostic center, or a cutting-edge research facility, our solutions are tailored to meet unique needs.",
+    text: "Spectrum Electrical Industries Limited, in collaboration with Fischer Chemic Limited, provides co-development, manufacturing, sourcing and supply of MRI machine components.",
   },
 ];
 
 export default function HealthTech() {
-  return (
+    const navigate = useNavigate();
+
+    return (
     <div className="core-path">
+      <button onClick={() => navigate('/')} className="read-more" style={{ marginTop: "20px", marginLeft: "50px" }}>
+        ← Back
+      </button>
       <h1 className="title">HealthTech</h1>
-      <p className="core-para">
+      {/* <p className="core-para">
         Our advanced MRI systems are designed to deliver crystal-clear images,
         enabling healthcare professionals to diagnose and confidently provide
         timely and accurate care.
-      </p>
+      </p> */}
 
       <div className="core-services">
         {items.map((item, index) => (

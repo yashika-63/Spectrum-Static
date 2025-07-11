@@ -3,14 +3,14 @@ import "../../CSS/Home/ExploreSection.css";
 import { FaAngleRight } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 
-const tabs = [ "Careers", "Investor Relations", "Client"];
+const tabs = [ "Business Enquiry", "Investor Relations", "Careers" ];
 
 const tabContent = {
-  Careers: {
-    heading: "Be part of a team that builds a better world",
-    text: "Spectrum Electrical is where ideas spark, innovation thrives and careers are built. We design and deliver cutting edge electrical components that powers industries and improve lives. Join us in building a smarter, more connected tomorrow.",
-    buttonText: "VIEW OPEN POSITIONS",
-    route: "/Careers"
+  'Business Enquiry': {
+    heading: "Get in Touch",
+    text: "Are you looking for a strategic partner to create innovative products and achieve manufacturing excellence by adopting technological and engeenering advances? You are at the right place. We have end-to-end supply chain integration with capabilities from drawing room product design to packaging and delivery.",
+    buttonText: "CONTACT US",
+    route: "/ContactUs"
   },
   'Investor Relations': {
     heading: "Building trust and transparency in creating value",
@@ -18,16 +18,16 @@ const tabContent = {
     buttonText: "EXPLORE INVESTOR INFO",
     route: "/InvestorRelations"
   },
-  Client: {
-    heading: "Get in Touch",
-    text: "Are you looking for a strategic partner to create innovative products and achieve manufacturing excellence by adopting technological and engeenering advances? You are at the right place. We have end-to-end supply chain integration with capabilities from drawing room product design to packaging and delivery.",
-    buttonText: "CONTACT US",
-    route: "/ContactUs"
+  Careers: {
+    heading: "Be part of a team that builds a better world",
+    text: "Spectrum Electrical is where ideas spark, innovation thrives and careers are built. We design and deliver cutting edge products that powers industries and improve lives. Join us in building a smarter, more connected tomorrow.",
+    buttonText: "VIEW OPEN POSITIONS",
+    route: "/Careers"
   }
 };
 
 export default function ExploreSection() {
-  const [activeTab, setActiveTab] = useState("Careers");
+  const [activeTab, setActiveTab] = useState("Business Enquiry");
   const content = tabContent[activeTab];
     const navigate = useNavigate();
 

@@ -51,7 +51,7 @@ const coreValues = [
   },
   {
     title: "Sustainability",
-    description: "We uphold sustainability with BRSR, CSR and ESG principles.",
+    description: "We uphold sustainability by doing business responsibility.",
   },
 ];
 

@@ -20,7 +20,7 @@ const NewsDetails = () => {
       </button>
 
       <h2 className="title">{news.title}</h2>
-      <div className="news-date" style={{ textAlign: "right" }}>{news.date}</div>
+      {/* <div className="news-date" style={{ textAlign: "right" }}>{news.date}</div> */}
 
       <div className="divider">
         <div className="line" />

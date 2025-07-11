@@ -1,5 +1,6 @@
 import React from "react";
 import "../../CSS/AboutUs/CorePath.css";
+import { useNavigate } from "react-router-dom";
 
 const items = [
   {
@@ -9,12 +10,17 @@ const items = [
 ];
 
 export default function EVChargers() {
+    const navigate = useNavigate();
+
   return (
     <div className="core-path">
+      <button onClick={() => navigate('/')} className="read-more" style={{ marginTop: "20px", marginLeft: "50px" }}>
+        ← Back
+      </button>
       <h1 className="title">Electrical Power Panels</h1>
-      <p className="core-para">
+      {/* <p className="core-para">
         Spectrum powers the future of electric mobility with reliable, user-friendly EV charging solutions, including efficient AC chargers for homes and destinations. With a focus on durability and innovation, we’re advancing toward DC fast charging to support seamless, sustainable transportation for all.
-      </p>
+      </p> */}
 
       <div className="core-services">
         {items.map((item, index) => (

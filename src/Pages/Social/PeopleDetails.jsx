@@ -20,7 +20,7 @@ const PeopleDetails = () => {
       </button>
 
       <h2 className="title">{peoples.title}</h2>
-      <div className="news-date" style={{ textAlign: "right" }}>{peoples.date}</div>
+      {/* <div className="news-date" style={{ textAlign: "right" }}>{peoples.date}</div> */}
 
       <div className="divider">
         <div className="line" />

@@ -1,10 +1,11 @@
 import React from "react";
 import "../../CSS/AboutUs/CorePath.css";
+import { useNavigate } from "react-router-dom";
 
 const items = [
   {
     label: "Switches",
-    text: "Our switches are engineered for seamless performance, combining safety, style and ease of use. Designed with durable materials and precise mechanisms, they ensure reliable operation over time exceeding by far minimum operations requirement. These switches are tested for over 200,000 operations to exceed BIS standard requirement of 40,000 operations. Either for home or commercial spaces, our switches complement any interior while delivering dependable control with variety of designs to match aesthetic and functional needs.",
+    text: "Our switches are engineered for seamless performance, combining safety, style and ease of use. Designed with durable materials and precise mechanisms, they ensure reliable operation over time exceeding by far minimum operations requirement. These switches are tested for over 200,000 (against 100,000) operations to exceed BIS standard requirement of 40,000 (against 20,000) operations. Either for home or commercial spaces, our switches complement any interior while delivering dependable control with variety of designs to match aesthetic and functional needs.",
   },
   {
     label: "Outlets",
@@ -26,17 +27,22 @@ const items = [
 ];
 
 export default function WiringDevices() {
-  return (
+    const navigate = useNavigate();
+
+    return (
     <div className="core-path">
+      <button onClick={() => navigate('/')} className="read-more" style={{ marginTop: "20px", marginLeft: "50px" }}>
+        ← Back
+      </button>
       <h1 className="title">Wiring Devices</h1>
-      <p className="core-para">
+      {/* <p className="core-para">
         We provide a wide range of wiring devices, including switches, outlets,
         and dimmers, all designed with safety, convenience and durability
         in mind. Made with high-quality materials and precision assembly, our
         products deliver reliable performance you can trust. Either for
         residential or commercial use, our wiring devices meet the highest
         standards, ensuring ease of use and long-lasting quality.
-      </p>
+      </p> */}
 
       <div className="core-services">
         {items.map((item, index) => (

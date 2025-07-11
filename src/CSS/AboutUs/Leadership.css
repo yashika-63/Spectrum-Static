@@ -1,6 +1,7 @@
 .leadership-container {
   padding: 20px 40px;
   text-align: center;
+  padding-bottom: 100px;
 }
 
 .grid-container {
@@ -20,8 +21,8 @@
 
 .card-inner {
   position: relative;
+  height: 100%;
   width: 100%;
-  padding-top: 130%;
   transform-style: preserve-3d;
   transition: transform 3.5s;
 }
@@ -54,6 +55,9 @@
 .card-back {
     border: 4px double var(--red);
     text-align: justify;
+    width: 90%;
+    height: 100%;
+    margin-bottom: 50px;
 }
 
 .card-photo-full {

@@ -6,7 +6,7 @@ const NewsCard = ({ news, onClick }) => {
 
   return (
     <div className="news-card" onClick={() => onClick(news)}>
-      <p className="news-date">{date}</p>
+      {/* <p className="news-date">{date}</p> */}
       <h3 className="news-title">{title}</h3>
       <p className="news-description-clamp">{description}</p>
       <button

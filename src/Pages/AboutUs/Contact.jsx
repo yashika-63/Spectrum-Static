@@ -103,7 +103,7 @@ const Contact = () => {
 
       <div className="manufacturing-section">
         <div className="manufacturing-section">
-          <h1 className="title">Manufacturing Presence</h1>
+          <h1 className="title">Manufacturing Locations</h1>
           <div className="locations">
             <a
               className="location-item"
@@ -112,7 +112,7 @@ const Contact = () => {
               rel="noopener noreferrer"
             >
               <FaMapMarkerAlt className="icon" />
-              <span>Jalgaon</span>
+              <span>Jalgaon,<br />Maharashtra</span>
             </a>
 
             <a
@@ -122,7 +122,7 @@ const Contact = () => {
               rel="noopener noreferrer"
             >
               <FaMapMarkerAlt className="icon" />
-              <span>Nashik</span>
+              <span>Nashik,<br /> Maharashtra</span>
             </a>
 
             <a
@@ -132,7 +132,17 @@ const Contact = () => {
               rel="noopener noreferrer"
             >
               <FaMapMarkerAlt className="icon" />
-              <span>Bengaluru</span>
+              <span>Kolar,<br /> Karnataka</span>
+            </a>
+
+            <a
+              className="location-item"
+              href="https://maps.app.goo.gl/cnvzUTPLSoLQtmqG8"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaMapMarkerAlt className="icon" />
+              <span>Malur,<br /> Karnataka</span>
             </a>
           </div>
         </div>

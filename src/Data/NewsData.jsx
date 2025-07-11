@@ -104,7 +104,7 @@ export const sustainData = [
   {
     id: 3,
     date: "06/03/2019",
-    title: "Pioneering Water Sustainability: Spectrum's Advanced Initiatives",
+    title: "Powering Efficiency, Sustaining the Future",
     description: "We are committed to reducing energy consumption through smart, energy-efficient solutions. By adopting LED lighting, efficient ventilation systems and retrofitting injection molding machines with Servo motors, we've significantly cut electricity use while maintaining operational growth. Motion sensors in office and production areas further optimize energy usage, reducing emissions. To expand our renewable energy footprint, 8,000 sq. m. of roof-top solar panels generate 12 lakh units annually, preventing 1,315 tons of CO emissions. We're also transitioning to cleaner energy sources by optimizing diesel usage, exploring biofuels and increasing LPG consumption as a sustainable alternative. These initiatives reflect our unwavering commitment to energy efficiency and creating a cleaner, greener future.",
   },
 ];

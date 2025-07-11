@@ -1,5 +1,6 @@
 import React from "react";
 import "../../CSS/AboutUs/CorePath.css";
+import { useNavigate } from "react-router-dom";
 
 const items = [
   {
@@ -9,12 +10,17 @@ const items = [
 ];
 
 export default function ElectricalPowerPanel() {
+    const navigate = useNavigate();
+
   return (
     <div className="core-path">
+      <button onClick={() => navigate('/')} className="read-more" style={{ marginTop: "20px", marginLeft: "50px" }}>
+        ← Back
+      </button>
       <h1 className="title">Electrical Power Panels</h1>
-      <p className="core-para">
+      {/* <p className="core-para">
         Spectrum’s advanced electrical power panels ranging from distribution to control and breaker panels ensure safe, efficient energy management. Built with a focus on reliability and adaptability, our panels deliver seamless connectivity and trusted performance tailored to specific needs.
-      </p>
+      </p> */}
 
       <div className="core-services">
         {items.map((item, index) => (

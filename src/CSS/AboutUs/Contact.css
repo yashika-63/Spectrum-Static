@@ -84,7 +84,7 @@
 
 .locations {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   justify-content: center;
   padding: 50px 0px 100px 0px;
 }
@@ -108,7 +108,7 @@
 }
 
 .location-item span {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 @media (max-width: 768px) {
