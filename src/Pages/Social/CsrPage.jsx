@@ -34,7 +34,7 @@ const CsrPage = () => {
             placeholder="Search CSR..."
             onChange={(e) => setSearchTerm(e.target.value)}
           />
-          <select
+          {/* <select
             onChange={(e) => setYearFilter(e.target.value)}
             value={yearFilter}
           >
@@ -44,7 +44,7 @@ const CsrPage = () => {
                 {year}
               </option>
             ))}
-          </select>
+          </select> */}
         </div>
       </div>
 

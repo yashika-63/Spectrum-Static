@@ -34,7 +34,7 @@ const SustainabilityPage = () => {
             placeholder="Search Sustainability..."
             onChange={(e) => setSearchTerm(e.target.value)}
           />
-          <select
+          {/* <select
             onChange={(e) => setYearFilter(e.target.value)}
             value={yearFilter}
           >
@@ -44,7 +44,7 @@ const SustainabilityPage = () => {
                 {year}
               </option>
             ))}
-          </select>
+          </select> */}
         </div>
       </div>
 

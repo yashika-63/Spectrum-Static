@@ -34,7 +34,7 @@ const PeoplePage = () => {
             placeholder="Search Events..."
             onChange={(e) => setSearchTerm(e.target.value)}
           />
-          <select
+          {/* <select
             onChange={(e) => setYearFilter(e.target.value)}
             value={yearFilter}
           >
@@ -44,7 +44,7 @@ const PeoplePage = () => {
                 {year}
               </option>
             ))}
-          </select>
+          </select> */}
         </div>
       </div>
 

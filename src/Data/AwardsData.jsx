@@ -2,7 +2,7 @@ const awardsData = [
   { image: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Awards/ISO34001.jpg", name: "ISO 45001:2018" },
   { image: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Awards/ISO9001.jpg", name: "ISO 9001:2015" },
   { image: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Awards/ISO14001.jpg", name: "ISO 14001:2015" },
-  { image: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Awards/UNGC.jpg", name: "UN Global Compact" },
+  // { image: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Awards/UNGC.jpg", name: "UN Global Compact" },
   // { image: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Awards/IMEA2019.JPG", name: "IMEA Supplier Day" },
   // { image: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Awards/GoldSupplier.JPG", name: "Gold Supplier" },
   // { image: "", name: "" },
