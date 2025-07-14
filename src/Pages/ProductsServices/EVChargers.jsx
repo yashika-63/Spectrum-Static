@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 const items = [
   {
     label: "EV Chargers",
-    text: "We’re dedicated to generate the future of electric mobility. Our range includes AC chargers designed for homes and destination charging and we’re exploring DC fast chargers to meet the demands of rapid public charging. We focus on creating chargers that are efficient, durable and easy to use, ensuring a seamless experience for EV owners.",
+    text: "Spectrum is an ultimate partner for cutting-edge EV charging station. We have DC EV Chargers ranging from 30kW to 120kW. It contains 30kW DC EV Charger with Single CCS2 Charging Connector, 60kW DC EV Charger with Dual CCS2 Charging Connector and 120kW DC EV Charger with Dual CCS2 Charging Connector. We are developing 180kW & 240kW.",
   },
 ];
 
