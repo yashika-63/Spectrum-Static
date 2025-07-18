@@ -3,41 +3,41 @@ export const leadershipData = [
     name: "Mr. Deepak Chaudhari",
     title: "Promoter Chairman & Managing Director",
     email: "deepak.chaudhari@spectrum-india.com",
-    // photo: "",
-    photo: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/DeepakChaudhari.png",
+    photo: "",
+    // photo: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/DeepakChaudhari.png",
     description: "Mr. Deepak envisions Spectrum playing a pivotal role in building a globally footprinted organization offering next gen products and solutions. His strategic focus includes diversification, expansion into new markets, embracing cutting-edge technologies, fostering a culture of innovation, sustainability, corporate social responsibility and upholding ethical governance."
   },
   {
     name: "Mrs. Bharati Chaudhari",
     title: "Whole-time Women Director, Corporate Services",
     email: "bharti.chaudhari@spectrum-india.com",
-    // photo: "",
-    photo: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/BhartiChaudhari.png",
+    photo: "",
+    // photo: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/BhartiChaudhari.png",
     description: "Mrs. Bharati Chaudhari, a dynamic professional is integral part of the promoter group, serves as the Whole-time Women Director. In her role as Director of Corporate Services, she plays a pivotal role in overseeing and streamlining Spectrum’s administrative and corporate functions, ensuring operational excellence across the organization. "
   },
   {
     name: "Mr. Devendra Rane",
     title: "Executive Director, Business Development",
     email: "devendra.rane@spectrum-india.com",
-    // photo: "",
-    photo: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/DevendraRane1.png",
+    photo: "",
+    // photo: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/DevendraRane1.png",
     description: "As Executive Director, he oversees business development and operations, leveraging his deep expertise in procurement and strategic growth. Mr. Rane has been instrumental in expanding Spectrum's footprint across diverse geographies and markets. Under his leadership, Spectrum has successfully ventured into new business avenues, capacity expansions and significant volume growth."
   },
    {
     name: "Mr. Narendra Wagh",
     title: "Non-Executive Independent Director",
     email: "narendra.wagh@spectrum-india.com",
-    // photo: "",
-    photo: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/NarendraWagh1.png",
+    photo: "",
+    // photo: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/NarendraWagh1.png",
     description: "Mr. Narendra Wagh brings unparalleled expertise in managing complex manufacturing operations across diverse industry sectors, including FMCG, automobiles, renewable energy, Nuclear and defense etc. His strategic leadership, honed through these varied sectors, reflects his broad business acumen and deep industry insight."
   },
   {
     name: "Mr. Kishor Dhake",
     title: "Non-Executive Independant Director",
     email: "kishor.dhake@spectrum-india.com",
-    // photo: "",
-    photo: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/KishorDhake.png",
-    description: "Mr. Dhake brings valuable industry insights and strategic guidance, contributing to the company’s growth and innovation in both traditional and New Products in the electronics domain, & renewable energy sectors. His extensive experience supports Spectrum’s commitment to delivering advanced solutions in a dynamic market."
+    photo: "",
+    // photo: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/KishorDhake.png",
+    description: "Kishor Dhake brings over three decades of deep-rooted experience in the electronics and renewable energy sectors. Recognized for developing innovative industrial products and systems, he has successfully managed and guided businesses with a strong technology and engineering focus. His domain expertise has consistently enabled sustainable, innovation-led growth across diverse segments in power electronics."
   },
   {
     name: "Mr. Sanjay Pawde",
@@ -45,7 +45,7 @@ export const leadershipData = [
     email: "sanjay.pawde@spectrum-india.com",
     photo: "",
     // photo: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/SanjayPawde1.png",
-    description: "Mr. Sanjay has been actively involved in Training, Human Resources, Skill Development, Research and CSR activities. An accomplished author, Mr. Pawde currently serves as Director at KCE Society’s Dr. APJ Abdul Kalam Skill Development Centre, Jalgaon. His diverse expertise in automation, digitalization and skill development brings invaluable insights to Spectrum, particularly in enhancing the company’s capabilities in these critical areas."
+    description: "Sanjay Pawde has extensive experience in human resource development and Training, New age skill building, research, and CSR. An accomplished author, he currently serves as Director at KEC Society’s Dr. APJ Abdul Kalam Skill Development Centre in Jalgaon. His interests span automation, digitization, and technical education, with a strong focus on developing future-ready technical talent for industries."
   },
    {
     name: "Mr. Saurabh Malpani",
@@ -53,7 +53,7 @@ export const leadershipData = [
     email: "saurabh.malpani@spectrum-india.com",
     photo: "",
     // photo: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/SaurabhMalpani1.png",
-    description: "As a Non-Executive Independent Director Mr. Malpani’s deep understanding of complex tax regulations plays a pivotal role in ensuring the company’s compliance with the dynamic landscape of indirect tax laws. In addition to his professional acumen, his strategic insights help Spectrum optimize tax structure, minimize risks and improve operational efficiency."
+    description: "Saurabh Malpani is a seasoned tax professional with deep expertise in indirect taxation, regulatory compliance, and strategic tax planning. Known for his sharp analytical skills and understanding of complex tax frameworks, he brings valuable insights into risk management and operational efficiency."
   },
    {
     name: "Mrs. Priya Rathi",
@@ -61,46 +61,46 @@ export const leadershipData = [
     email: "priya.rathi@spectrum-india.com",
     photo: "",
     // photo: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/PriyaRathi.png",
-    description: ""
+    description: "Mrs. Priya Rathi is a qualified Chartered Accountant with strong expertise in direct taxation, auditing, and financial compliance. Over the past five years, she has advised corporates, SMEs, and individual clients on tax planning, regulatory adherence, and risk mitigation. Her sound understanding of financial systems and commitment to accuracy make her a valuable contributor to strategic financial decision-making."
   },
    {
     name: "Mr. Vikash Mittal",
     title: "Chief Manufacturing Officer",
     email: "vikash.mittal@spectrum-india.com",
-    // photo: "",
-    photo: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/VikashMittal.jpg",
+    photo: "",
+    // photo: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/VikashMittal.jpg",
     description: "Mr. Vikash Mittal, the Chief Manufacturing Officer, brings decads of extensive experience. As Senior Director of Operations at Samsung, he led high-volume manufacturing, complex supply chains, process innovation and large strategic projects in a highly competitive environment. He is driving Spectrum's transformation and overseeing manufacturing operations across all verticals benchmarked to global industry standards taking Spectrum to a new league of global businesses."
   },
   {
     name: "Mr. Pankaj Rote",
     title: "Chief Financial Officer",
     email: "pankaj.rote@spectrum-india.com",
-    // photo: "",
-    photo: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/PankajRote.png",
+    photo: "",
+    // photo: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/PankajRote.png",
     description: "Mr. Pankaj, the Chief Financial Officer, brings over 15 years of expertise in finance, accounting and corporate taxation. With a strong foundation in finance with CA certification, he spearheads complex financial operations, ensuring regulatory compliance and driving business performance. He is the driving force behind pivotal changes, orchestrating significant transformations in systems, legal contracts, corporate taxation, cost optimization initiatives and rationalizing the business frameworks for ease of operations."
   },
   {
     name: "Mr. Rahul Lavane",
     title: "Company Secretary and Compliance Officer",
     email: "rahul.lavane@spectrum-india.com",
-    // photo: "",
-    photo: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/RahulLavane.png",
+    photo: "",
+    // photo: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/RahulLavane.png",
     description: "Mr. Rahul Lavane brings expertise in company law, governance practices and regulatory compliance upholding corporate governance standards. He is instrumental in maintaining the company's operational integrity by navigating complex regulatory landscapes, actively liaising with compliance authorities and legal service providers and managing corporate governance protocols."
   },
   {
     name: "Mr. Vaibhav Rane",
     title: "Director Supply chain",
     email: "vaibhav.rane@spectrum-india.com",
-    // photo: "",
-    photo: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/VaibhavRane.jpg",
+    photo: "",
+    // photo: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/VaibhavRane.jpg",
     description: "With a robust background in process optimization, project delivery and stakeholder management, Mr. Rane brings invaluable expertise from the oil and gas sector, where he honed his skills in driving efficiency in complex manufacturing environments. His strategic vision is to bolster Spectrum’s operational excellence by optimizing processes, enhancing customer satisfaction and reinforcing the company’s position as a multi-technology solutions provider."
   },
   {
     name: "Mr. Nitin Aptikar",
     title: "Chief ODM Officer",
     email: "nitin.aptikar@spectrum-india.com",
-    // photo: "",
-    photo: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/NitinAptikar.png",
+    photo: "",
+    // photo: "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/NitinAptikar.png",
     description: "Mr. Nitin Aptikar, our Chief - ODM Officer (Original Design Manufacturer), brings over 30 years of extensive experience in operations, manufacturing technology, Industrial Engineering, Project Management and Supply Chain Management. He has successfully led & executed large-scale transformation projects in organizations such as blue chip MNCs : Siemens and Schneider Electric. Nitin has deep expertise of the new product development, factory design and global project management."
   },
   // {
