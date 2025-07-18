@@ -29,11 +29,11 @@ const CsrPage = () => {
       <h2 className="title">Latest CSR</h2>
       <div className="news-header">
         <div className="filters">
-          <input
+          {/* <input
             type="text"
             placeholder="Search CSR..."
             onChange={(e) => setSearchTerm(e.target.value)}
-          />
+          /> */}
           {/* <select
             onChange={(e) => setYearFilter(e.target.value)}
             value={yearFilter}

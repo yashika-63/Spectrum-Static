@@ -29,11 +29,11 @@ const PeoplePage = () => {
       <h2 className="title">Latest Events</h2>
       <div className="news-header">
         <div className="filters">
-          <input
+          {/* <input
             type="text"
             placeholder="Search Events..."
             onChange={(e) => setSearchTerm(e.target.value)}
-          />
+          /> */}
           {/* <select
             onChange={(e) => setYearFilter(e.target.value)}
             value={yearFilter}

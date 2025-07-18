@@ -29,11 +29,11 @@ const NewsPage = () => {
       <h2 className="title">Latest News</h2>
       <div className="news-header">
         <div className="filters">
-          <input
+          {/* <input
             type="text"
             placeholder="Search news..."
             onChange={(e) => setSearchTerm(e.target.value)}
-          />
+          /> */}
           {/* <select
             onChange={(e) => setYearFilter(e.target.value)}
             value={yearFilter}

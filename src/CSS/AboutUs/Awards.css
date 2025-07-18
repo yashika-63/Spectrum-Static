@@ -5,13 +5,14 @@
 
 .awards-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 80px 30px;
   padding-bottom: 60px;
+  padding-top: 30px;
 }
 
 .award-card {
-  height: 300px;
+  height: 400px;
   border-radius: 10px;
   overflow: hidden;
   position: relative;

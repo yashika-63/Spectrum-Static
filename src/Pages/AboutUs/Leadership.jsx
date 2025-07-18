@@ -12,7 +12,7 @@ export default function Leadership() {
             <div className="card-inner">
               <div className="card-front">
                 <img
-                  src={person.photo || "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/dummy_icon_leadership.png"}
+                  src={person.photo || "https://javajar1234.s3.ap-south-1.amazonaws.com/Spectrum-static/Team/dummy_icon_leadership_white.png"}
                   alt={person.name}
                   className="card-photo-full"
                 />

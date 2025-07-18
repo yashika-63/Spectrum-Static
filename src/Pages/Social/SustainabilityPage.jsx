@@ -29,11 +29,11 @@ const SustainabilityPage = () => {
       <h2 className="title">Sustainability Initiatives</h2>
       <div className="news-header">
         <div className="filters">
-          <input
+          {/* <input
             type="text"
             placeholder="Search Sustainability..."
             onChange={(e) => setSearchTerm(e.target.value)}
-          />
+          /> */}
           {/* <select
             onChange={(e) => setYearFilter(e.target.value)}
             value={yearFilter}
