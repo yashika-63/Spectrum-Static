@@ -17,7 +17,7 @@ export default function EVChargers() {
       <button onClick={() => navigate('/')} className="read-more" style={{ marginTop: "20px", marginLeft: "50px" }}>
         ← Back
       </button>
-      <h1 className="title">Electrical Power Panels</h1>
+      <h1 className="title">EV Chargers Manufacturing</h1>
       {/* <p className="core-para">
         Spectrum powers the future of electric mobility with reliable, user-friendly EV charging solutions, including efficient AC chargers for homes and destinations. With a focus on durability and innovation, we’re advancing toward DC fast charging to support seamless, sustainable transportation for all.
       </p> */}
